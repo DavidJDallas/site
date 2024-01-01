@@ -7,6 +7,7 @@ import {Routes, Route} from 'react-router-dom';
 import Contact from './Contact/Contact';
 import Projects from './Projects/Projects';
 import LandingPage from './LandingPage/LandingPage';
+import Blog from './Blog/Blog';
 
 const App = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 700);
@@ -72,6 +73,7 @@ if(isMobile)
               <Route path ="/" element ={<LandingPage/>}/>
               <Route path="/contact" element={<Contact/>} />
               <Route path = "/projects" element={<Projects/>}/>
+              <Route path ="/blog" element={<Blog/>}/>
         </Routes>
 
          

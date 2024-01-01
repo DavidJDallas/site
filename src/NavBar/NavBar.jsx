@@ -55,6 +55,23 @@ const NavBar = () => {
             </NavLink>
           </div>
         </Row>
+        <Row className='nav-bar-rows'>
+          <div className='contact-Nav'>
+            <NavLink
+              to='/blog'
+              style={({ isActive, isPending }) => ({
+                color: isActive ? 'white' : '#1d2731',
+                textDecoration: 'none',
+                borderBottom: isActive ? '2px solid white' : '2px solid transparent',
+                paddingBottom: '8px',
+                fontSize: '2rem',
+                transition: 'border-bottom 0.5s ease',
+              })}
+            >
+              <h3>Blog</h3>
+            </NavLink>
+          </div>
+        </Row>
       </Container>
     </>
   );
