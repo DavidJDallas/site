@@ -20,7 +20,29 @@ const LandingPage = () => {
             />
             </Col>
             <Col>
-            <p className='main-body'>I'm a software developer with a backround in the Philosophy and History of Science.  </p>
+            <p className='main-body'>I'm a software developer with a background in Academic Research. This came in the form of a PhD in the Philosophy and History of Science, which I obtained from the University of Bristol in 2022. 
+             </p>
+             <p className='main-body'>
+            My Thesis was on Empiricism in Science and the Philosophy of Science. The phil-sci Archive link can be found <a href="http://philsci-archive.pitt.edu/21458/">here</a>, and the official document can be found <a href="https://research-information.bris.ac.uk/en/studentTheses/empiricism-in-the-philosophy-of-science">here</a>.
+
+            Relevant to 
+
+             </p>
+
+             <p className='main-body'>
+              I mainly work in web development, and have experience ranging from SaaS web apps, to websites to custom-made web apps. The languages I'm most comfortable in are JavaScript and TypeScript. I have more experience in the Front-End, where my preferred framework is React; but I nonetheless really enjoy the Back-End too. Within JavaScript and TypeScript, I use Express as a framework. 
+            </p>
+            <p className='main-body'>
+              I'm also familiar with C# and .NET, especially using ASP.NET. 
+            </p>
+            <p className='main-body'>
+            As you can see, I'm also lucky enough to have had a healthy son born in November 2023. I've been taking some time out of full-time work and doing part-time freelance for a couple of months now. But I'm now open to either permanent, contract, or freelance work. 
+
+            </p>
+             
+
+
+            
             </Col>
          
 
