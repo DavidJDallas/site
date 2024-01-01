@@ -1,0 +1,12 @@
+
+
+/* 
+@media (max-width: 500px) {
+  .container-fluid > .row > .col-sm-2 {
+    width: 0;
+    overflow: hidden;
+  }
+  .container-fluid > .row > .col {
+    width: 100%;
+  }
+} */
