@@ -33,7 +33,7 @@ const LandingPage = () => {
               I mainly work in web development, and have experience ranging from SaaS web apps, to websites to custom-made web apps. The languages I'm most comfortable in are JavaScript and TypeScript. I have more experience in the Front-End, where my preferred framework is React; but I nonetheless really enjoy the Back-End too. Within JavaScript and TypeScript, I use Express as a framework. 
             </p>
             <p className='main-body'>
-              I'm also familiar with C# and .NET, especially using ASP.NET. 
+              I'm also familiar with C# and .NET, especially using ASP.NET. Moving forward I'd love to explore more languages. I'm keen to learn a purely functional language (started learning Haskell) and a lower-level language (C/Rust/Zig/Hare) to satisfy my curiosity there. 
             </p>
             <p className='main-body'>
             As you can see, I'm also lucky enough to have had a healthy son born in November 2023. I've been taking some time out of full-time work and doing part-time freelance for a couple of months now. But I'm now open to either permanent, contract, or freelance work. 
