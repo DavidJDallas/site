@@ -2,13 +2,13 @@
   display: flex;
   background-image: url('./SVGS/Ellipse2.svg');
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-size: cover;
   transition: background-image 0.5s ease-in;
   
 }
 
 .page1{
-  background-image: url('./SVGS/Ellipse3.svg');
+  background-image: url('./SVGS/Ellipse.svg');
 }
 
 .page2{
