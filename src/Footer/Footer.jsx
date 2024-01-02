@@ -8,13 +8,21 @@ const Footer = () => {
             <Col>
             </Col>
             <Col>
-            <Image src='GitHub-logo.png' style={{height: '50px', width: '100px'}}fluid/>
+            <a href = "https://github.com/DavidJDallas" target="_blank"><Image src='GitHub-logo.png'  style={{height: '50px', width: '100px'}}fluid
+           
+            /></a>
             </Col>
             <Col>
-            <Image src='Gmail-logo.png' style={{height: '50px', width: '100px'}}fluid/>
+            <a href="daviddallas606@gmail.com" target="_blank">
+                <Image src='Gmail-logo.png' style={{height: '50px', width: '100px'}}fluid/> 
+            </a>
+           
             </Col>
             <Col>
-            <Image src='LinkedIn-logo.png' style={{height: '50px', width: '100px'}}fluid/>
+            <a href="https://www.linkedin.com/in/david-dallas-925600253/" target="_blank">
+                <Image src='LinkedIn-logo.png' style={{height: '50px', width: '100px'}}fluid/>  
+            </a>
+          
             </Col>
         </Row>
         </>
