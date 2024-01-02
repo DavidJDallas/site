@@ -16,13 +16,9 @@ import Footer from './Footer/Footer';
 
 const App = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 700);
-  const [title, setTitle] = useState('Hello & Welcome')
-  const [currentPage, setCurrentPage] = useState(1);
+  const [title, setTitle] = useState('Hello & Welcome');
 
-  const nextPage = () => {
-    setCurrentPage(currentPage === 1 ? 2: 1);
-  }
- 
+
   useEffect(() => {
     const handleResize = () => {
       setIsMobile(window.innerWidth < 700);
@@ -46,10 +42,11 @@ if(isMobile)
       
            </Row>
     <Routes>
-              <Route path ="/" element ={<LandingPage/>}/>
-              <Route path="/contact" element={<Contact/>} />
-              <Route path = "/projects" element={<Projects/>}/>
-        </Routes>
+        <Route path ="/" element ={<LandingPage/>}/>
+        <Route path="/contact" element={<Contact/>} />
+        <Route path = "/projects" element={<Projects/>}/>
+        <Route path = "/blog" element={<Blog/>}/>
+    </Routes>
       
    
     </Container>
@@ -57,7 +54,7 @@ if(isMobile)
 
   return (
     <>
-    <div className={`background-container page${currentPage}`}>
+    <div className={`background-container`}>
 
     
     <Container fluid style={{ height: '100vh', padding: 0, }}>
@@ -70,35 +67,31 @@ if(isMobile)
       
     </Row>
       <Row style={{ height: 'auto', marginLeft: '10px',  }}>
-        <Col
-        xs={3}
-         sm={3}
-         m={2}
-         lg={2}
-         
-          style={{           
-            
-          }}
-        >
-          <NavBar />
+          <Col
+            xs={3}
+            sm={3}
+            m={2}
+            lg={2}          
+          >
+            <NavBar 
+              setTitle={setTitle}
+            />
+          </Col>
+
+          <Col className='main-column'>
+          <Routes>
+                <Route path ="/" element ={<LandingPage title={title}/>}/>
+                <Route path="/contact" element={<Contact title={title}/>} />
+                <Route path = "/projects" element={<Projects title={title}/>}/>
+                <Route path ="/blog" element={<Blog title={title}/>}/>
+          </Routes>         
+          </Col>
+
+          <Col
+          xs={2}
+          >
+
         </Col>
-        <Col
-        className='main-column'
-        style={{  }}>
-
-
-        <Routes>
-              <Route path ="/" element ={<LandingPage/>}/>
-              <Route path="/contact" element={<Contact/>} />
-              <Route path = "/projects" element={<Projects/>}/>
-              <Route path ="/blog" element={<Blog/>}/>
-        </Routes>
-
-         
-        </Col>
-        <Col
-        xs={2}
-        ></Col>
       </Row>
       <Row
       className='mt-5'

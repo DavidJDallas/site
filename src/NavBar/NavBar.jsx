@@ -3,7 +3,7 @@ import {Container, Row, Col} from 'react-bootstrap';
 import { Link, NavLink} from 'react-router-dom';
 
 
-const NavBar = () => {
+const NavBar = ({setTitle}) => {
   return (
     <>
       <Container fluid className='side-margin-container '>
@@ -17,6 +17,7 @@ const NavBar = () => {
                 //borderBottom: isActive ? '2px solid black' : '2px solid transparent',
                 transition: 'border-bottom 0.5s ease', // Adjust the duration and easing as needed
               })}
+              onClick={() => setTitle('Hello & Welcome')}
             >
               <h3>Home</h3>
             </NavLink>
@@ -33,6 +34,7 @@ const NavBar = () => {
                 paddingBottom: '8px',
                 transition: 'border-bottom 0.5s ease',
               })}
+              onClick={() => setTitle('Contact')}
             >
               <h3>Contact</h3>
             </NavLink>
@@ -49,7 +51,9 @@ const NavBar = () => {
                 paddingBottom: '8px',
                 fontSize: '2rem',
                 transition: 'border-bottom 0.5s ease',
+               
               })}
+              onClick={() => setTitle('Projects')}
             >
               <h3>Projects</h3>
             </NavLink>
@@ -67,6 +71,7 @@ const NavBar = () => {
                 fontSize: '2rem',
                 transition: 'border-bottom 0.5s ease',
               })}
+              onClick={() => setTitle('Blog')}
             >
               <h3>Blog</h3>
             </NavLink>
