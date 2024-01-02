@@ -1,0 +1,24 @@
+/* LandingPage.css */
+.top-left-svg {
+    margin-right: auto; /* Push the left-hand SVG to the left edge of the screen */
+    z-index: 1;
+    position: relative;
+    margin: 5% 0 0 10%;
+}
+  
+  .top-right-svg {
+    position: relative;
+   float: right;
+   z-index: 2;
+   margin: 5% 10% 0 0;
+   
+}
+
+.title{
+    position: relative;
+    align-items: center;
+    text-align: center;
+    z-index: 3;
+
+    
+}

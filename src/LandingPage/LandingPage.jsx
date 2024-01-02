@@ -4,21 +4,9 @@ import './LandingPage.css'
 const LandingPage = () => {
     return(
         <>
-         <Row>
-            
-            <h1>David Dallas</h1>
-          </Row>
+        
           <Row>
-            <h2>Software Developer</h2>
-          </Row>
-          <Row>
-            <Col
-            xs={5}
-            >
-               <Image src="file.jpg"
-            style={{width: '100%', height: '100%'}}
-            />
-            </Col>
+         
             <Col>
             <p className='main-body'>I'm a software developer with a background in Academic Research. This came in the form of a PhD in the Philosophy and History of Science, which I obtained from the University of Bristol in 2022. 
              </p>

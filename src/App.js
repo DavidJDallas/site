@@ -1,5 +1,5 @@
 import './App.css';
-import {Container, Row, Col} from 'react-bootstrap';
+import {Container, Row, Col, Image} from 'react-bootstrap';
 import NavBar from './NavBar/NavBar';
 import {useState, useEffect} from 'react';
 import NavBarTop from './NavBar/NavBarTop';
@@ -8,10 +8,20 @@ import Contact from './Contact/Contact';
 import Projects from './Projects/Projects';
 import LandingPage from './LandingPage/LandingPage';
 import Blog from './Blog/Blog';
+import topleft from './SVGS/topleft.svg';
+import topright from './SVGS/topright.svg';
+import Header from './Header/Header'
+import './App.css'
+import Footer from './Footer/Footer';
 
 const App = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 700);
+  const [title, setTitle] = useState('Hello & Welcome')
+  const [currentPage, setCurrentPage] = useState(1);
 
+  const nextPage = () => {
+    setCurrentPage(currentPage === 1 ? 2: 1);
+  }
  
   useEffect(() => {
     const handleResize = () => {
@@ -29,7 +39,7 @@ const App = () => {
 if(isMobile)
   return(<>
    <Container fluid style={{ height: '100vh', padding: 0 }}>
-
+ 
           <Row>
           <NavBarTop/>
 
@@ -47,28 +57,36 @@ if(isMobile)
 
   return (
     <>
-  
+    <div className={`background-container page${currentPage}`}>
+
+    
     <Container fluid style={{ height: '100vh', padding: 0, }}>
-      <Row style={{ height: '100%' }}>
+     <Row>
+     <Header
+     title={title}
+     />
+      
+
+      
+    </Row>
+      <Row style={{ height: 'auto' }}>
         <Col
         xs={3}
          sm={3}
          m={2}
          lg={2}
- 
          
           style={{           
             
-            height: '100%',
-           
-            // overflow: 'hidden',
           }}
         >
           <NavBar />
         </Col>
         <Col
-   
-        style={{ height: '100%' }}>
+        className='main-column'
+        style={{  }}>
+
+
         <Routes>
               <Route path ="/" element ={<LandingPage/>}/>
               <Route path="/contact" element={<Contact/>} />
@@ -79,10 +97,13 @@ if(isMobile)
          
         </Col>
       </Row>
+      <Row>
+        <Footer/>
+      </Row>
    
     </Container>
 
-   
+   </div>
 
     </>
   );
