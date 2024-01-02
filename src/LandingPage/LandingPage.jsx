@@ -7,7 +7,7 @@ const LandingPage = () => {
         
           <Row>
          
-            <Col>
+            <Col className='column-body'>
             <p className='main-body'>I'm a software developer with a background in Academic Research. This came in the form of a PhD in the Philosophy and History of Science, which I obtained from the University of Bristol in 2022. 
              </p>
              <p className='main-body'>

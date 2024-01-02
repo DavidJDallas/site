@@ -69,7 +69,7 @@ if(isMobile)
 
       
     </Row>
-      <Row style={{ height: 'auto' }}>
+      <Row style={{ height: 'auto', marginLeft: '10px',  }}>
         <Col
         xs={3}
          sm={3}
@@ -96,8 +96,13 @@ if(isMobile)
 
          
         </Col>
+        <Col
+        xs={2}
+        ></Col>
       </Row>
-      <Row>
+      <Row
+      className='mt-5'
+      >
         <Footer/>
       </Row>
    
