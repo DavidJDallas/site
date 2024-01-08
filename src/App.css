@@ -1,23 +1,23 @@
-.background-container::before {
+.background-container {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('./SVGS/topleft.svg');
+  background-image: url('./SVGS/background.svg');
+
   background-repeat: no-repeat;
-  background-size: contain;
-  animation: m 20s linear infinite;
-  animation-delay: calc(
-    -1s/ 25 * sin(42)
-  );
-  z-index: -1; /* Set a lower z-index for the background */
+  background-size: auto;
+  overflow: auto;
+  opacity: 0.9;
+
+  z-index: 0; /* Set a lower z-index for the background */
 }
 
-@keyframes m {
+/* @keyframes m {
   0%, 100% {
-    transform: translate(0, 0);
+    transform: translate(100, 0);
   }
   25% {
     transform: translate(50px, 50px);
@@ -27,11 +27,11 @@
   }
   75% {
     transform: translate(50px, -50px);
-  }}
+  }} */
 
 /* Adding hover effect for the background image */
-.background-container:hover::before {
-  opacity: 0.7;
-  transform: scale(0.9); /* Add a subtle scale effect on hover */
-  animation-duration: 2s;
-}
+/* .background-container:hover::before {
+  opacity: 0.4;
+  
+
+} */

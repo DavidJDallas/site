@@ -8,6 +8,7 @@ const LandingPage = () => {
   if(shortVersion){
     return(
       <>
+      <h3>About Me</h3>
       <p className='main-body'>I'm a software developer with a background in Academic Research in the Philosophy of Science. I now mainly work in web development, and have commercial experience ranging from SaaS web apps to website design and building to custom-made full-stack web apps. 
              </p>
              <p className='main-body'>
@@ -32,7 +33,9 @@ const LandingPage = () => {
         
           <Row>
          
-            <Col className='column-body'>
+       
+            <Col className='column-body'>  
+            <h2>About Me</h2>
             <p className='main-body'>I'm a software developer with a background in Academic Research in the Philosophy of Science. I now mainly work in web development, and have commercial experience ranging from SaaS web apps to website design and building to custom-made full-stack web apps. 
              </p>
              <p className='main-body'>
