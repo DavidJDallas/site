@@ -1,21 +1,18 @@
 .contact-Nav{
     display: flex;
     color: whitesmoke;
+    z-index: 3;
  
     margin-left: 10% 30% 0% 30% !important;
 }
 
 .nav-group{
     align-items: center;
+   
 }
 
 .side-margin-container{
     padding: 10%;
-
-
-    
-    
-    
 }
 
 .header-title{

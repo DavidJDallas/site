@@ -1,17 +1,42 @@
 import {Row, Col, Image} from 'react-bootstrap';
 import './LandingPage.css'
+import {useState} from 'react';
 
 const LandingPage = () => {
+
+  const [shortVersion, setShortVersion] = useState(true)
+  if(shortVersion){
+    return(
+      <>
+      <p className='main-body'>I'm a software developer with a background in Academic Research in the Philosophy of Science. I now mainly work in web development, and have commercial experience ranging from SaaS web apps to website design and building to custom-made full-stack web apps. 
+             </p>
+             <p className='main-body'>
+            My Thesis was on Empiricism in Science and the Philosophy of Science. The phil-sci Archive link can be found <a href="http://philsci-archive.pitt.edu/21458/" target="_blank">here</a>, and the official document can be found <a href="https://research-information.bris.ac.uk/en/studentTheses/empiricism-in-the-philosophy-of-science" target="_blank">here</a>.
+
+            Relevant to 
+
+             </p>
+
+             <p className='main-body'>
+              I mainly work in web development, and have experience ranging from SaaS web apps, to websites to custom-made web apps. The languages I'm most comfortable in are JavaScript and TypeScript. I have more experience in the Front-End, where my preferred framework is React; but I nonetheless really enjoy the Back-End too. Within JavaScript and TypeScript, I use Express as a framework. 
+            </p>
+            <p className='main-body'>
+              I'm also familiar with C# and .NET, especially using ASP.NET. Moving forward I'd love to explore more languages. I'm keen to learn a purely functional language (started learning Haskell) and a lower-level language (C/Rust/Zig/Hare) to satisfy my curiosity there. 
+            </p>
+      </>
+    )
+  }
+    
     return(
         <>
         
           <Row>
          
             <Col className='column-body'>
-            <p className='main-body'>I'm a software developer with a background in Academic Research. This came in the form of a PhD in the Philosophy and History of Science, which I obtained from the University of Bristol in 2022. 
+            <p className='main-body'>I'm a software developer with a background in Academic Research in the Philosophy of Science. I now mainly work in web development, and have commercial experience ranging from SaaS web apps to website design and building to custom-made full-stack web apps. 
              </p>
              <p className='main-body'>
-            My Thesis was on Empiricism in Science and the Philosophy of Science. The phil-sci Archive link can be found <a href="http://philsci-archive.pitt.edu/21458/">here</a>, and the official document can be found <a href="https://research-information.bris.ac.uk/en/studentTheses/empiricism-in-the-philosophy-of-science">here</a>.
+            My Thesis was on Empiricism in Science and the Philosophy of Science. The phil-sci Archive link can be found <a href="http://philsci-archive.pitt.edu/21458/" target="_blank">here</a>, and the official document can be found <a href="https://research-information.bris.ac.uk/en/studentTheses/empiricism-in-the-philosophy-of-science" target="_blank">here</a>.
 
             Relevant to 
 
