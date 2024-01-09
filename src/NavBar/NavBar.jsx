@@ -23,23 +23,7 @@ const NavBar = ({setTitle}) => {
             </NavLink>
           </div>
         </Row>
-        <Row className='nav-bar-rows'>
-          <div className='contact-Nav'>
-            <NavLink
-              to='/contact'
-              style={({ isActive, isPending }) => ({
-                color: isActive ? '#fd7f6f': '#1d2731',
-                textDecoration: 'none',
-                //borderBottom: isActive ? '2px solid black' : '2px solid transparent',
-                paddingBottom: '8px',
-                transition: 'border-bottom 0.5s ease',
-              })}
-              onClick={() => setTitle('Contact')}
-            >
-              <h3>Contact</h3>
-            </NavLink>
-          </div>
-        </Row>
+       
         <Row className='nav-bar-rows'>
           <div className='contact-Nav'>
             <NavLink

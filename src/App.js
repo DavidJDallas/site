@@ -4,7 +4,6 @@ import NavBar from './NavBar/NavBar';
 import {useState, useEffect} from 'react';
 import NavBarTop from './NavBar/NavBarTop';
 import {Routes, Route} from 'react-router-dom';
-import Contact from './Contact/Contact';
 import Projects from './Projects/Projects';
 import LandingPage from './LandingPage/LandingPage';
 import Blog from './Blog/Blog';
@@ -43,7 +42,6 @@ if(isMobile)
            </Row>
     <Routes>
         <Route path ="/" element ={<LandingPage/>}/>
-        <Route path="/contact" element={<Contact/>} />
         <Route path = "/projects" element={<Projects/>}/>
         <Route path = "/blog" element={<Blog/>}/>
     </Routes>
@@ -64,8 +62,7 @@ if(isMobile)
         </Col>
         <Col className='main-column'>
           <Routes>
-            <Route path='/' element={<LandingPage title={title} />} />
-            <Route path='/contact' element={<Contact title={title} />} />
+            <Route path='/' element={<LandingPage title={title} />} />          
             <Route path='/projects' element={<Projects title={title} />} />
             <Route path='/blog' element={<Blog title={title} />} />
           </Routes>
