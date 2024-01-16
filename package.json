@@ -18,7 +18,10 @@
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "version-number"
+    "@babel/plugin-proposal-private-property-in-object": "version-number",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -27,10 +30,9 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "rules": {
+      "no-warnings": "warn"
+    }
   },
   "browserslist": {
     "production": [
@@ -44,11 +46,4 @@
       "last 1 safari version"
     ]
   }
-  ,
-  "eslintConfig": {
-    "rules": {
-      "no-warnings": "warn"
-    }
-  }
-  
 }
