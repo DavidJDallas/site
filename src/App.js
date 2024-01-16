@@ -61,10 +61,7 @@ if(isMobile)
           <NavBar setTitle={setTitle} />
         </Col>
         <Col className='main-column'>
-        <div>
-     
-        <iframe src="https://amazon.co.uk" width="800" height="600" frameborder="0"></iframe>
-    </div>
+       
           <Routes>
             <Route path='/' element={<LandingPage title={title} />} />          
             <Route path='/projects' element={<Projects title={title} />} />
