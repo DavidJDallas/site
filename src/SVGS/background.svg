@@ -39,7 +39,7 @@
             from="100 300 150"
             to="360 150 150"
             dur="4s"
-            repeatCount="once"
+            repeatCount="twice"
             fill="freeze"
         />
         <animate attributeName="r" from="30" to="120" dur="4s" repeatCount="once"    fill="freeze"/>
