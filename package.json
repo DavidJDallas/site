@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "version-number",
+    "@babel/preset-env": "^7.23.8",
     "eslint": "^8.56.0",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0"
@@ -28,11 +29,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "rules": {
-      "no-warnings": "warn"
-    }
   },
   "browserslist": {
     "production": [
