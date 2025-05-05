@@ -17,7 +17,7 @@ const NavBar = ({setTitle}) => {
                 //borderBottom: isActive ? '2px solid black' : '2px solid transparent',
                 transition: 'border-bottom 0.5s ease', // Adjust the duration and easing as needed
               })}
-              onClick={() => setTitle('Hello & Welcome')}
+              onClick={() => setTitle('')}
             >
               <h3>Home</h3>
             </NavLink>

@@ -7,15 +7,13 @@ import {Routes, Route} from 'react-router-dom';
 import Projects from './Projects/Projects';
 import LandingPage from './LandingPage/LandingPage';
 import Blog from './Blog/Blog';
-import topleft from './SVGS/topleft.svg';
-import topright from './SVGS/topright.svg';
 import Header from './Header/Header'
 import './App.css'
 import Footer from './Footer/Footer';
 
 const App = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 700);
-  const [title, setTitle] = useState('Hello & Welcome');
+  const [title, setTitle] = useState('');
 
 
   useEffect(() => {
@@ -37,8 +35,6 @@ if(isMobile)
  
           <Row>
           <NavBarTop/>
-
-      
            </Row>
     <Routes>
         <Route path ="/" element ={<LandingPage/>}/>
