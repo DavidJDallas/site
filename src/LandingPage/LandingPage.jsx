@@ -19,7 +19,11 @@ const LandingPage = () => {
             Relevant to 
 
              </p>
+
+        * I use the description 'Pragmatic' to primarily contrast with a dogmatic approach to software engineering, and also to 
       </>
+
+  
     )
   }
     
