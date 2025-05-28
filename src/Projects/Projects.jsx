@@ -26,7 +26,14 @@ const Projects = () => {
         <p>I made some notes to the first few lectures of Geoffrey Messier's online lecture series on Computer Architecture. See here https://github.com/DavidJDallas/Computer-Architecture for my notes, and here for his excellent lecture series. </p>
 
         <h3>Introduction to Backend Software Engineering Course</h3>
+        
+        <p>
+        I've started to create a course/lecture series that's called 'An Introduction to Backend Software Engineering'. Hopefully the title is relatively self-explanatory. It's aimed primarily at people who have a basic grasp of writing code and basic algorithms, but haven't had a chance to get to grips with the more theoretical and foundational elements in the field of backend software engineering. 
+        </p>
 
+        <p>
+        This is currently being written, and will be a combination of both chapters going live on my GitHub, and video lectures being put onto YouTube. If you'd like to see contents of this or any previews I will probably be fine to do so.
+        </p>        
         </>
     )
 }
