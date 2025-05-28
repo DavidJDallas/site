@@ -25,6 +25,8 @@ const Projects = () => {
         <h3>Computer Architecture</h3>
         <p>I made some notes to the first few lectures of Geoffrey Messier's online lecture series on Computer Architecture. See here https://github.com/DavidJDallas/Computer-Architecture for my notes, and here for his excellent lecture series. </p>
 
+        <h3>Introduction to Backend Software Engineering Course</h3>
+
         </>
     )
 }
