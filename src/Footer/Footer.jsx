@@ -4,7 +4,7 @@ const Footer = () => {
     return(
         <>
        
-        <Row>
+        <Row style={{marginBottom: '20px'}}>
             <Col>
             </Col>
             <Col>
@@ -13,10 +13,9 @@ const Footer = () => {
             /></a>
             </Col>
             <Col>
-            <a href="daviddallas606@gmail.com" target="_blank">
-                <Image src='Gmail-logo.png' style={{height: '50px', width: '100px'}}fluid/> 
-            </a>
-           
+                <a href="mailto:daviddallas606@gmail.com" target="_blank">
+                    <Image src='Gmail-logo.png' style={{height: '50px', width: '100px'}} fluid/> 
+                </a>
             </Col>
             <Col>
             <a href="https://www.linkedin.com/in/david-dallas-925600253/" target="_blank">

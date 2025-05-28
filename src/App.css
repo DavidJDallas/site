@@ -13,24 +13,170 @@
 
   z-index: 0; /* Set a lower z-index for the background */
 }
+/* Mobile-specific styles */
+.mobile-background-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 
-/* @keyframes m {
-  0%, 100% {
-    transform: translate(100, 0);
-  }
-  25% {
-    transform: translate(50px, 50px);
-  }
-  50% {
-    transform: translate(100px, 0);
-  }
-  75% {
-    transform: translate(50px, -50px);
-  }} */
+.mobile-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: inherit;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
 
-/* Adding hover effect for the background image */
-/* .background-container:hover::before {
-  opacity: 0.4;
+.mobile-nav {
+  position: sticky;
+  top: 60px; /* Adjust based on your header height */
+  z-index: 999;
+  background: inherit;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 10px 0;
+}
+
+.mobile-content {
+  flex: 1;
+  padding: 15px !important;
+  overflow-y: auto;
+}
+
+.mobile-footer {
+  margin-top: auto;
+  padding: 20px 0;
+}
+
+/* Ensure mobile content is responsive */
+@media (max-width: 700px) {
+  .mobile-content {
+    padding: 10px !important;
+  }
   
+  /* Make text more readable on mobile */
+  body {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  h1 { font-size: 1.8rem; }
+  h2 { font-size: 1.5rem; }
+  h3 { font-size: 1.3rem; }
+  
+  /* Ensure images are responsive */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Add touch-friendly spacing */
+  button, a {
+    min-height: 44px;
+    padding: 12px 16px;
+  }
+  
+  /* Stack elements vertically on mobile */
+  .mobile-content .row {
+    margin: 0;
+  }
+  
+  .mobile-content .col-12 {
+    padding: 0;
+  }
+}
 
-} */
+/* Extra small devices */
+@media (max-width: 480px) {
+  .mobile-content {
+    padding: 8px !important;
+  }
+  
+  h1 { font-size: 1.6rem; }
+  h2 { font-size: 1.3rem; }
+  h3 { font-size: 1.1rem; }
+}
+
+/* Add this to App.css - Mobile-specific styles */
+.mobile-background-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: inherit;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.mobile-nav {
+  position: sticky;
+  top: 60px; /* Adjust based on your header height */
+  z-index: 999;
+  background: inherit;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 10px 0;
+}
+
+.mobile-content {
+  flex: 1;
+  padding: 15px !important;
+  overflow-y: auto;
+}
+
+.mobile-footer {
+  margin-top: auto;
+  padding: 20px 0;
+}
+
+/* Ensure mobile content is responsive */
+@media (max-width: 700px) {
+  .mobile-content {
+    padding: 10px !important;
+  }
+  
+  /* Make text more readable on mobile */
+  body {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  h1 { font-size: 1.8rem; }
+  h2 { font-size: 1.5rem; }
+  h3 { font-size: 1.3rem; }
+  
+  /* Ensure images are responsive */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Add touch-friendly spacing */
+  button, a {
+    min-height: 44px;
+    padding: 12px 16px;
+  }
+  
+  /* Stack elements vertically on mobile */
+  .mobile-content .row {
+    margin: 0;
+  }
+  
+  .mobile-content .col-12 {
+    padding: 0;
+  }
+}
+
+/* Extra small devices */
+@media (max-width: 480px) {
+  .mobile-content {
+    padding: 8px !important;
+  }
+  
+  h1 { font-size: 1.6rem; }
+  h2 { font-size: 1.3rem; }
+  h3 { font-size: 1.1rem; }
+}

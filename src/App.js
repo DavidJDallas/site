@@ -15,7 +15,6 @@ const App = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 700);
   const [title, setTitle] = useState('');
 
-
   useEffect(() => {
     const handleResize = () => {
       setIsMobile(window.innerWidth < 700);
@@ -29,49 +28,68 @@ const App = () => {
     };
   }, []);
 
-if(isMobile)
-  return(<>
-   <Container fluid style={{ height: '100vh', padding: 0 }}>
- 
-          <Row>
-          <NavBarTop/>
-           </Row>
-    <Routes>
-        <Route path ="/" element ={<LandingPage/>}/>
-        <Route path = "/projects" element={<Projects/>}/>
-        <Route path = "/blog" element={<Blog/>}/>
-    </Routes>
-      
-   
-    </Container>
-  </>)
+  if(isMobile) {
+    return (
+      <>
+        <div className="mobile-background-container" style={{ position: 'relative', minHeight: '100vh' }}>
+          <Container fluid style={{ padding: 0 }}>
+            {/* Mobile Header */}
+            <Row className="mobile-header">
+              <Header title={title} />
+            </Row>
+            
+            {/* Mobile Navigation */}
+            <Row className="mobile-nav">
+              <NavBarTop setTitle={setTitle} />
+            </Row>
+
+            
+            {/* Mobile Content */}
+            <Row className="mobile-content" style={{ flex: 1, padding: '15px' }}>
+              <Col xs={12}>
+                <Routes>
+                  <Route path="/" element={<LandingPage title={title} />}/>
+                  <Route path="/projects" element={<Projects title={title} />}/>
+                  <Route path="/blog" element={<Blog title={title} />}/>
+                </Routes>
+              </Col>
+            </Row>
+            
+            {/* Mobile Footer */}
+            <Row className="mobile-footer mt-4">
+              <Footer />
+            </Row>
+          </Container>
+        </div>
+      </>
+    );
+  }
 
   return (
-    <> <div className={`background-container`} style={{ position: 'relative' }}>
-    <Container fluid style={{ height: '100vh', padding: 0 }}>
-      <Row>
-        <Header title={title} />
-      </Row>
-      <Row style={{ height: 'auto', marginLeft: '10px' }}>
-        <Col xs={3} sm={3} m={2} lg={2}>
-          <NavBar setTitle={setTitle} />
-        </Col>
-        <Col className='main-column'>
-       
-          <Routes>
-            <Route path='/' element={<LandingPage title={title} />} />          
-            <Route path='/projects' element={<Projects title={title} />} />
-            <Route path='/blog' element={<Blog title={title} />} />
-          </Routes>
-        </Col>
-        <Col xs={2}></Col>
-      </Row>
-      <Row className='mt-5'>
-        <Footer />
-      </Row>
-    </Container>
-
-  </div>
+    <> 
+      <div className={`background-container`} style={{ position: 'relative' }}>
+        <Container fluid style={{ height: '100vh', padding: 0 }}>
+          <Row>
+            <Header title={title} />
+          </Row>
+          <Row style={{ height: 'auto', marginLeft: '10px' }}>
+            <Col xs={3} sm={3} m={2} lg={2}>
+              <NavBar setTitle={setTitle} />
+            </Col>
+            <Col className='main-column'>
+              <Routes>
+                <Route path='/' element={<LandingPage title={title} />} />          
+                <Route path='/projects' element={<Projects title={title} />} />
+                <Route path='/blog' element={<Blog title={title} />} />
+              </Routes>
+            </Col>
+            <Col xs={2}></Col>
+          </Row>
+          <Row className='mt-5'>
+            <Footer />
+          </Row>
+        </Container>
+      </div>
     </>
   );
 }

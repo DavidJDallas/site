@@ -1,3 +1,4 @@
+/* Vertical Navigation Styles (Desktop) */
 .contact-Nav{
     display: flex;
     color: whitesmoke;
@@ -18,7 +19,74 @@
 }
 
 .nav-bar-rows{
-    margin-top:50px;
+    margin-top: 50px;
     margin-bottom: 50px;
     margin-left: 20%;    
+}
+
+/* Top Navigation Styles (Mobile) */
+.top-nav-container {
+    padding: 10px 0;
+    background: inherit;
+}
+
+.top-nav-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 0 15px;
+}
+
+.top-nav-item {
+    flex: 1;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.top-nav-item h4 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 8px 0;
+}
+
+.top-nav-item a {
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.top-nav-item a:hover {
+    background-color: rgba(253, 127, 111, 0.1);
+    transform: translateY(-2px);
+}
+
+/* Active state styling */
+.top-nav-item a[style*="#fd7f6f"] {
+    background-color: rgba(253, 127, 111, 0.15);
+    border-radius: 8px;
+}
+
+/* Responsive adjustments for very small screens */
+@media (max-width: 480px) {
+    .top-nav-wrapper {
+        padding: 0 5px;
+    }
+    
+    .top-nav-item {
+        padding: 0 5px;
+    }
+    
+    .top-nav-item h4 {
+        font-size: 1rem;
+    }
+}
+
+/* Extra small screens - stack if needed */
+@media (max-width: 360px) {
+    .top-nav-item h4 {
+        font-size: 0.9rem;
+    }
 }
