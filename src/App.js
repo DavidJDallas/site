@@ -22,7 +22,6 @@ const App = () => {
 
     window.addEventListener('resize', handleResize);
 
-    // Cleanup the event listener on component unmount
     return () => {
       window.removeEventListener('resize', handleResize);
     };
@@ -48,7 +47,7 @@ const App = () => {
             <Row className="mobile-content" style={{ flex: 1, padding: '15px' }}>
               <Col xs={12}>
                 <Routes>
-                  <Route path="/" element={<LandingPage title={title} />}/>
+                  <Route path="/" element={<LandingPage title={setTitle} />}/>
                   <Route path="/projects" element={<Projects title={title} />}/>
                   <Route path="/blog" element={<Blog title={title} />}/>
                 </Routes>
@@ -78,7 +77,7 @@ const App = () => {
             </Col>
             <Col className='main-column'>
               <Routes>
-                <Route path='/' element={<LandingPage title={title} />} />          
+                <Route path='/' element={<LandingPage title={'David Dallas'} />} />          
                 <Route path='/projects' element={<Projects title={title} />} />
                 <Route path='/blog' element={<Blog title={title} />} />
               </Routes>
