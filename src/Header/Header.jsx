@@ -36,18 +36,21 @@ const Header = ({ title }) => {
                         display: 'inline-block'
                     }}
                 >
-                    <h1 
-                        style={{
-                            fontSize: 'clamp(1.8rem, 4vw, 3.236rem)', // Responsive golden ratio sizing
-                            fontWeight: '300',
-                            color: '#2c3e50',
-                            margin: '0',
-                            letterSpacing: '-0.025em',
-                            fontFamily: 'Georgia, serif',
-                            textShadow: '0 1px 2px rgba(0,0,0,0.05)',
-                            lineHeight: '1.2'
-                        }}
-                    >
+                  <h1 
+  style={{
+    fontSize: 'clamp(2.2rem, 6vw, 3.618rem)',
+    fontWeight: '400',
+    color: '#2c3e50',
+    margin: '0',
+    letterSpacing: '-0.015em',
+    fontFamily: '"Playfair Display", Georgia, serif',
+    textShadow: '0 1px 3px rgba(0,0,0,0.05)',
+    borderBottom: '2px solid #ecf0f1',
+    paddingBottom: '0.5rem',
+  }}
+>
+
+
                         {title}
                     </h1>
 

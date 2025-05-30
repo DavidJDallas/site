@@ -11,15 +11,18 @@ const LandingPage = () => {
                 fontFamily: 'Georgia, serif'
             }}>
                 <header style={{ marginBottom: '2.618rem' }}>
-                    <h3 style={{
-                        fontSize: '2.618rem',
-                        marginBottom: '1.618rem',
-                        fontWeight: '300',
-                        color: '#2c3e50',
-                        letterSpacing: '-0.02em'
-                    }}>
-                        About Me
-                    </h3>
+                <h2 style={{
+                    fontSize: '2rem',
+                    marginBottom: '1.618rem',
+                    fontWeight: '400',
+                    color: '#2c3e50',
+                    borderBottom: '1px solid #ecf0f1',
+                    paddingBottom: '0.5rem',
+                    letterSpacing: '-0.02em'
+                }}>
+                About Me
+                </h2>
+
                 </header>
 
                 <main>

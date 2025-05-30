@@ -17,38 +17,52 @@ const Projects = () => {
                     Practical Based
                 </h2>
 
-                <article style={{ marginBottom: '2.618rem' }}>
-                    <h3 style={{
-                        fontSize: '1.618rem',
-                        marginBottom: '1rem',
-                        fontWeight: '400',
-                        color: '#34495e'
-                    }}>
-                        Weather Trend Viewer
-                    </h3>
-                    <p style={{
-                        marginBottom: '1rem',
-                        fontSize: '1rem',
-                        color: '#555'
-                    }}>
-                        A while back I built an app that allows you to view historical weather trends for any location you'd like to see. It was built as a practical tool for trying to get a rough feel for temperatures and amount of rain you'd likely experience when taking trips to specific places around the world. It utilises the D3 library in JavaScript/TypeScript, and uses React as a front-end library.
-                    </p>
-                    <p style={{
-                        fontSize: '1rem',
-                        color: '#555'
-                    }}>
-                        The site is <a 
-                            href="https://weathertrends.netlify.app/" 
-                            style={{
-                                color: '#3498db',
-                                textDecoration: 'none',
-                                borderBottom: '1px solid #3498db'
-                            }}
-                        >
-                            here
-                        </a>.
-                    </p>
-                </article>
+                <article style={{
+    background: '#fafafa',
+    border: '1px solid #e1e4e8',
+    borderRadius: '12px',
+    padding: '1.618rem',
+    marginBottom: '2.618rem',
+    boxShadow: '0 2px 5px rgba(0, 0, 0, 0.03)'
+}}>
+    <h3 style={{
+        fontSize: '1.5rem',
+        marginBottom: '0.5rem',
+        fontWeight: '500',
+        color: '#2c3e50'
+    }}>
+        Weather Trend Viewer
+    </h3>
+    <p style={{
+        fontSize: '0.95rem',
+        color: '#777',
+        fontStyle: 'italic',
+        marginBottom: '0.5rem'
+    }}>
+        React, D3, TypeScript
+    </p>
+    <p style={{
+        fontSize: '1rem',
+        color: '#444',
+        lineHeight: '1.6',
+        marginBottom: '1rem'
+    }}>
+        An interactive weather explorer built with D3.js. Helps get a feel for historical climate trends anywhere in the world. Use it to get a rough sense of temperature and rainfall before traveling.
+    </p>
+    <a href="https://weathertrends.netlify.app/" target="_blank" rel="noopener noreferrer"
+       style={{
+           display: 'inline-block',
+           backgroundColor: '#3498db',
+           color: 'white',
+           padding: '0.5rem 1rem',
+           borderRadius: '5px',
+           textDecoration: 'none',
+           fontSize: '0.95rem'
+       }}>
+        View Project →
+    </a>
+</article>
+
 
                 <article style={{ marginBottom: '2.618rem' }}>
                     <h3 style={{
