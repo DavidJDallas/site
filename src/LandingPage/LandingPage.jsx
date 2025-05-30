@@ -1,11 +1,7 @@
-import { Row, Col, Image } from 'react-bootstrap';
 import './LandingPage.css';
-import { useState } from 'react';
 
 const LandingPage = () => {
-    const [shortVersion, setShortVersion] = useState(true);
     
-    if (shortVersion) {
         return (
             <div className="landing-container" style={{
                 maxWidth: '800px',
@@ -84,9 +80,7 @@ const LandingPage = () => {
                 </main>
             </div>
         );
-    }
+}
 
-    return null; // For when shortVersion is false
-};
 
 export default LandingPage;

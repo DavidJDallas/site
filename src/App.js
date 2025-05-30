@@ -13,7 +13,7 @@ import Footer from './Footer/Footer';
 
 const App = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 700);
-  const [title, setTitle] = useState('');
+  const [title, setTitle] = useState('David Dallas');
 
   useEffect(() => {
     const handleResize = () => {
@@ -34,7 +34,7 @@ const App = () => {
           <Container fluid style={{ padding: 0 }}>
             {/* Mobile Header */}
             <Row className="mobile-header">
-              <Header title={title} />
+            
             </Row>
             
             {/* Mobile Navigation */}
@@ -47,7 +47,7 @@ const App = () => {
             <Row className="mobile-content" style={{ flex: 1, padding: '15px' }}>
               <Col xs={12}>
                 <Routes>
-                  <Route path="/" element={<LandingPage title={setTitle} />}/>
+                  <Route path="/" element={<LandingPage title={'David Dallas'} />}/>
                   <Route path="/projects" element={<Projects title={title} />}/>
                   <Route path="/blog" element={<Blog title={title} />}/>
                 </Routes>

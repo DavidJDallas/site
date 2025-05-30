@@ -1,6 +1,4 @@
-import { Col, Row, Image } from 'react-bootstrap';
-import topleft from '../SVGS/topleft.svg';
-import topright from '../SVGS/topright.svg';
+import { Col, Row } from 'react-bootstrap';
 import './Header.css';
 
 const Header = ({ title }) => {
@@ -21,19 +19,7 @@ const Header = ({ title }) => {
                     padding: '0 1rem'
                 }}
             >
-                <Image 
-                    src={topleft} 
-                    alt="Left decorative element" 
-                    className="top-left-svg"
-                    style={{
-                        maxWidth: '100%',
-                        height: 'auto',
-                        filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.1))',
-                        transition: 'transform 0.3s ease'
-                    }}
-                    onMouseOver={(e) => e.target.style.transform = 'scale(1.05)'}
-                    onMouseOut={(e) => e.target.style.transform = 'scale(1)'}
-                />
+            
             </Col>
             
             <Col 
@@ -75,19 +61,7 @@ const Header = ({ title }) => {
                     padding: '0 1rem'
                 }}
             >
-                <Image 
-                    src={topright} 
-                    alt="Right decorative element" 
-                    className="top-right-svg"
-                    style={{
-                        maxWidth: '100%',
-                        height: 'auto',
-                        filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.1))',
-                        transition: 'transform 0.3s ease'
-                    }}
-                    onMouseOver={(e) => e.target.style.transform = 'scale(1.05)'}
-                    onMouseOut={(e) => e.target.style.transform = 'scale(1)'}
-                />
+        
             </Col>
         </Row>
     );
