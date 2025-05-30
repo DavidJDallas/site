@@ -28,6 +28,11 @@
 .top-nav-container {
     padding: 10px 0;
     background: inherit;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #f8f9fa; /* Add background to prevent text showing through */
+    border-bottom: 1px solid rgba(44, 62, 80, 0.1); /* Subtle separator */
 }
 
 .top-nav-wrapper {
@@ -69,6 +74,17 @@
     border-radius: 8px;
 }
 
+/* Main content spacing to prevent overlap */
+.main-content-container {
+    padding-top: 80px; /* Adjust this value based on your navbar height */
+}
+
+/* Alternative: Add to your page components */
+.landing-container,
+.projects-container {
+    margin-top: 80px; /* Add space above content when mobile nav is present */
+}
+
 /* Responsive adjustments for very small screens */
 @media (max-width: 480px) {
     .top-nav-wrapper {
@@ -82,11 +98,30 @@
     .top-nav-item h4 {
         font-size: 1rem;
     }
+    
+    /* Reduce spacing on smaller screens */
+    .main-content-container {
+        padding-top: 70px;
+    }
+    
+    .landing-container,
+    .projects-container {
+        margin-top: 70px;
+    }
 }
 
 /* Extra small screens - stack if needed */
 @media (max-width: 360px) {
     .top-nav-item h4 {
         font-size: 0.9rem;
+    }
+    
+    .main-content-container {
+        padding-top: 65px;
+    }
+    
+    .landing-container,
+    .projects-container {
+        margin-top: 65px;
     }
 }
