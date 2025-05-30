@@ -1,6 +1,4 @@
-import { Col, Row, Image } from 'react-bootstrap';
-import topleft from '../SVGS/topleft.svg';
-import topright from '../SVGS/topright.svg';
+import { Col, Row } from 'react-bootstrap';
 import './Header.css';
 
 const Header = ({ title }) => {
