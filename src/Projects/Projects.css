@@ -1,0 +1,84 @@
+/* Projects.css */
+
+.projects-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2.618rem;
+    line-height: 1.618;
+    font-family: Georgia, serif;
+}
+
+.projects-section {
+    margin-bottom: 4.236rem;
+}
+
+.projects-section:last-child {
+    margin-bottom: 0;
+}
+
+.projects-section h2 {
+    font-size: 2.618rem;
+    margin-bottom: 1.618rem;
+    font-weight: 300;
+    color: #2c3e50;
+}
+
+.project-article {
+    margin-bottom: 2.618rem;
+}
+
+.project-article:last-child {
+    margin-bottom: 0;
+}
+
+.project-article h3 {
+    font-size: 1.618rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    color: #34495e;
+}
+
+.project-article p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.project-article p:last-child {
+    margin-bottom: 0;
+}
+
+.project-article a {
+    color: #3498db;
+    text-decoration: none;
+    border-bottom: 1px solid #3498db;
+}
+
+/* Project card styling */
+.project-card {
+    background: #f8f9fa;
+    padding: 1.618rem;
+    margin-bottom: 2.618rem;
+}
+
+.project-card h3 {
+    font-size: 1.618rem;
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+    color: #34495e;
+}
+
+.project-card .tech-stack {
+    font-size: 0.95rem;
+    color: #777;
+    font-style: italic;
+    margin-bottom: 0.5rem;
+}
+
+/* Multi-paragraph project styling */
+.multi-paragraph-project p {
+    margin-bottom: 1rem;
+}
+
+.multi-paragraph-project p:last-child {
+    margin-bottom: 0;
+}
