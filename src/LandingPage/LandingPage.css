@@ -1,5 +1,61 @@
-.main-body{
+/* LandingPage.css */
+
+/* Existing styles */
+.main-body {
     font-size: 1.5rem;
-    padding: 10px
+    padding: 10px;
 }
 
+/* New extracted styles from LandingPage component */
+.landing-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2.618rem;
+    line-height: 1.618;
+    font-family: Georgia, serif;
+}
+
+.landing-header {
+    margin-bottom: 2.618rem;
+}
+
+.landing-header h2 {
+    font-size: 2rem;
+    margin-bottom: 1.618rem;
+    font-weight: 400;
+    color: #2c3e50;
+    border-bottom: 1px solid #ecf0f1;
+    padding-bottom: 0.5rem;
+    letter-spacing: -0.02em;
+}
+
+.landing-section {
+    margin-bottom: 2.618rem;
+}
+
+.main-body {
+    font-size: 1.1rem;
+    margin-bottom: 1.618rem;
+    color: #444;
+    text-align: justify;
+}
+
+.main-body.last-paragraph {
+    margin-bottom: 2.618rem;
+}
+
+.main-body a {
+    color: #3498db;
+    text-decoration: none;
+    border-bottom: 1px solid #3498db;
+    transition: color 0.3s ease;
+}
+
+.landing-aside {
+    font-size: 0.9rem;
+    color: #666;
+    font-style: italic;
+    padding-left: 1.618rem;
+    border-left: 3px solid #ecf0f1;
+    margin-top: 1.618rem;
+}

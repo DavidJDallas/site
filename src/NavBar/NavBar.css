@@ -1,38 +1,119 @@
-/* Vertical Navigation Styles (Desktop) */
-.contact-Nav{
+/* NavBar.css */
+
+/* NavBarTop (Fixed Header) Styles */
+.navbar-top-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: white;
+    border-bottom: 1px solid #e3f2fd;
+    padding: 0.8rem 0;
+    transform: translateY(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar-top-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 2.618rem;
+    font-family: Georgia, serif;
+}
+
+.navbar-top-nav {
+    display: flex;
+    justify-content: center;
+    gap: 2.618rem;
+    flex-wrap: wrap;
+}
+
+.navbar-top-link {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 300;
+    letter-spacing: -0.02em;
+    padding: 0.618rem 1rem;
+    transition: all 0.3s ease;
+}
+
+.navbar-top-link:not(.active) {
+    color: #2c3e50;
+    border-bottom: 1px solid transparent;
+}
+
+.navbar-top-link.active {
+    color: #fd7f6f;
+    border-bottom: 1px solid #fd7f6f;
+}
+
+/* NavBar (Vertical Sidebar) Styles */
+.navbar-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2.618rem;
+    font-family: Georgia, serif;
+}
+
+.navbar-item {
+    margin-bottom: 1.618rem;
+}
+
+.navbar-link {
+    text-decoration: none;
+    font-size: 1.618rem;
+    font-weight: 300;
+    letter-spacing: -0.02em;
+    display: block;
+    padding: 0.618rem 0;
+    transition: all 0.3s ease;
+}
+
+.navbar-link:not(.active) {
+    color: #2c3e50;
+    border-bottom: 1px solid transparent;
+}
+
+.navbar-link.active {
+    color: #fd7f6f;
+    border-bottom: 1px solid #fd7f6f;
+}
+
+/* Legacy Styles (Preserved for compatibility) */
+.contact-Nav {
     display: flex;
     color: whitesmoke;
     z-index: 3; 
     margin-left: 10% 30% 0% 30% !important;
 }
 
-.nav-group{
+.nav-group {
     align-items: center;   
 }
 
-.side-margin-container{
+.side-margin-container {
     padding: 10%;
 }
 
-.header-title{
+.header-title {
     font-size: 20px;
 }
 
-.nav-bar-rows{
+.nav-bar-rows {
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: 20%;    
 }
 
-/* Top Navigation Styles (Mobile) */
+/* Mobile Navigation Styles */
 .top-nav-container {
     padding: 10px 0;
     background: inherit;
     position: sticky;
     top: 0;
     z-index: 1000;
-    background-color: #f8f9fa; /* Add background to prevent text showing through */
-    border-bottom: 1px solid rgba(44, 62, 80, 0.1); /* Subtle separator */
+    background-color: #f8f9fa;
+    border-bottom: 1px solid rgba(44, 62, 80, 0.1);
 }
 
 .top-nav-wrapper {
@@ -68,24 +149,22 @@
     transform: translateY(-2px);
 }
 
-/* Active state styling */
 .top-nav-item a[style*="#fd7f6f"] {
     background-color: rgba(253, 127, 111, 0.15);
     border-radius: 8px;
 }
 
-/* Main content spacing to prevent overlap */
+/* Main Content Spacing */
 .main-content-container {
-    padding-top: 80px; /* Adjust this value based on your navbar height */
+    padding-top: 80px;
 }
 
-/* Alternative: Add to your page components */
 .landing-container,
 .projects-container {
-    margin-top: 80px; /* Add space above content when mobile nav is present */
+    margin-top: 80px;
 }
 
-/* Responsive adjustments for very small screens */
+/* Responsive Design */
 @media (max-width: 480px) {
     .top-nav-wrapper {
         padding: 0 5px;
@@ -99,7 +178,6 @@
         font-size: 1rem;
     }
     
-    /* Reduce spacing on smaller screens */
     .main-content-container {
         padding-top: 70px;
     }
@@ -108,9 +186,22 @@
     .projects-container {
         margin-top: 70px;
     }
+    
+    /* Adjust navbar spacing on mobile */
+    .navbar-container {
+        padding: 1.618rem;
+    }
+    
+    .navbar-top-container {
+        padding: 0 1.618rem;
+    }
+    
+    .navbar-top-nav {
+        gap: 1.618rem;
+    }
 }
 
-/* Extra small screens - stack if needed */
+/* Extra small screens */
 @media (max-width: 360px) {
     .top-nav-item h4 {
         font-size: 0.9rem;
@@ -123,5 +214,14 @@
     .landing-container,
     .projects-container {
         margin-top: 65px;
+    }
+    
+    .navbar-top-nav {
+        gap: 1rem;
+    }
+    
+    .navbar-top-link {
+        font-size: 1rem;
+        padding: 0.5rem 0.8rem;
     }
 }

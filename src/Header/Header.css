@@ -1,24 +1,52 @@
-/* LandingPage.css */
+/* Header.css */
+
+/* Existing styles */
 .top-left-svg {
-    margin-right: auto; /* Push the left-hand SVG to the left edge of the screen */
-    z-index: 1;
-    position: relative;
-    margin: 5% 0 0 10%;
-}
-  
-  .top-right-svg {
-    position: relative;
-   float: right;
-   z-index: 2;
-   margin: 5% 10% 0 0;
-   
+  margin-right: auto;
+  z-index: 1;
+  position: relative;
+  margin: 5% 0 0 10%;
 }
 
-.title{
-    position: relative;
-    align-items: center;
-    text-align: center;
-    z-index: 3;
+.top-right-svg {
+  position: relative;
+  float: right;
+  z-index: 2;
+  margin: 5% 10% 0 0;
+}
 
-    
+.title {
+  position: relative;
+  align-items: center;
+  text-align: center;
+  z-index: 3;
+  display: inline-block;
+}
+
+/* New extracted styles from Header component */
+.header-container {
+  margin: 0;
+  padding: 1.618rem 0;
+  min-height: 4.236rem;
+  background: transparent;
+}
+
+.header-col-side {
+  padding: 0 1rem;
+}
+
+.header-col-center {
+  padding: 0 1.618rem;
+}
+
+.title h1 {
+  font-size: clamp(2.2rem, 6vw, 3.618rem);
+  font-weight: 400;
+  color: #2c3e50;
+  margin: 0;
+  letter-spacing: -0.015em;
+  font-family: "Playfair Display", Georgia, serif;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  border-bottom: 2px solid #ecf0f1;
+  padding-bottom: 0.5rem;
 }
