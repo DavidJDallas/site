@@ -27,6 +27,9 @@ const LandingPage = () => {
                         >
                             here
                         </a>.
+                        I'm very interested in the foundations, philosophy and history of software and computer science more generally. I'm especially interested in philosophy of software design, or philosophies of architectural design in software, and am becoming very interested with the early historical figures around this such as Djikstra and Parnas. I see Ousterhoot as a spiritual successor of these and am very interested in his work around the philosophy of software design.
+
+                        Long term, I intend to write semi-regularly about these topics and also on general topics of backend software engineering. The former aiming to be more research based and the latter more educational based aimed at junior/pre-junior engineers.
                     </p>
                 </section>
 
