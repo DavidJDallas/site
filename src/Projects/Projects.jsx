@@ -13,13 +13,6 @@ const Projects = () => {
                         An interactive weather explorer built with D3.js. Helps get a feel for historical climate trends anywhere in the world. Use it to get a rough sense of temperature and rainfall before traveling. <a href="https://weathertrends.netlify.app/" target="_blank" rel="noopener noreferrer">View Project →</a>
                     </p>
                 </article>
-
-                <article className="project-article project-card">
-                    <h3>Word Count Viewer</h3>
-                    <p>
-                        This is a coding challenge from John Crickett's coding challenges blog. It's a script that functions the same as the wc tool in any Unix-based OS. This currently works for counting bytes, counting line numbers, counting words, or counting characters. You can do this through denoting -c, -l, -w, or -m in the CLI, respectively. How to run in depth is explicated below. It can be found <a href="https://github.com/DavidJDallas/wc-tool">here</a>.
-                    </p>
-                </article>
             </section>
 
             <section className="projects-section">
