@@ -1,0 +1,162 @@
+/* Blog.css */
+
+.blog-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2.618rem;
+    line-height: 1.618;
+    font-family: Georgia, serif;
+}
+
+.blog-header {
+    margin-bottom: 4.236rem;
+}
+
+.blog-header h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    color: #2c3e50;
+    border-bottom: 1px solid #ecf0f1;
+    padding-bottom: 0.5rem;
+    letter-spacing: -0.02em;
+}
+
+.blog-subtitle {
+    font-size: 1.1rem;
+    color: #666;
+    font-style: italic;
+    margin-top: 1rem;
+}
+
+.blog-main {
+    /* Main container for blog sections */
+}
+
+.blog-section {
+    margin-bottom: 4.236rem;
+}
+
+.blog-section:last-child {
+    margin-bottom: 0;
+}
+
+.section-title {
+    font-size: 2.618rem;
+    margin-bottom: 1rem;
+    font-weight: 300;
+    color: #2c3e50;
+}
+
+.section-description {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 2.618rem;
+    font-style: italic;
+}
+
+.posts-list {
+    /* Container for posts in each section */
+}
+
+/* Individual blog post styling */
+.blog-post {
+    background: #f8f9fa;
+    padding: 1.618rem;
+    margin-bottom: 2.618rem;
+    transition: box-shadow 0.3s ease;
+}
+
+.blog-post:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post:last-child {
+    margin-bottom: 0;
+}
+
+/* Post header */
+.post-header {
+    margin-bottom: 1rem;
+}
+
+.post-title {
+    font-size: 1.618rem;
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+    color: #34495e;
+    line-height: 1.4;
+}
+
+.post-title a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.post-title a:hover {
+    color: #3498db;
+}
+
+/* Post metadata */
+.post-meta {
+    font-size: 0.9rem;
+    color: #777;
+    font-style: italic;
+}
+
+.meta-separator {
+    margin: 0 0.5rem;
+}
+
+.read-time {
+    color: #888;
+}
+
+/* Post content */
+.post-content {
+    /* Container for excerpt and read more link */
+}
+
+.post-excerpt {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+.read-more {
+    color: #3498db;
+    text-decoration: none;
+    border-bottom: 1px solid #3498db;
+    font-size: 0.95rem;
+    transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.read-more:hover {
+    color: #2980b9;
+    border-color: #2980b9;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .blog-container {
+        padding: 1.618rem;
+    }
+    
+    .blog-header h2 {
+        font-size: 1.8rem;
+    }
+    
+    .section-title {
+        font-size: 2rem;
+    }
+    
+    .blog-post {
+        padding: 1rem;
+    }
+    
+    .post-title {
+        font-size: 1.4rem;
+    }
+}

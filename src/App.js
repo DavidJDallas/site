@@ -3,13 +3,21 @@ import {Container, Row, Col, Image} from 'react-bootstrap';
 import NavBar from './NavBar/NavBar';
 import {useState, useEffect} from 'react';
 import NavBarTop from './NavBar/NavBarTop';
-import {Routes, Route} from 'react-router-dom';
+import {Routes, Route, useParams} from 'react-router-dom';
 import Projects from './Projects/Projects';
 import LandingPage from './LandingPage/LandingPage';
 import Blog from './Blog/Blog';
+import BlogPost from './Blog/BlogPost';
 import Header from './Header/Header'
 import './App.css'
 import Footer from './Footer/Footer';
+
+// Add this before your App component
+const BlogPostWrapper = () => {
+  const { postId } = useParams();
+  return <BlogPost postId={postId} />;
+};
+
 
 const App = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 700);
@@ -50,6 +58,7 @@ const App = () => {
                   <Route path="/" element={<LandingPage title={'David Dallas'} />}/>
                   <Route path="/projects" element={<Projects title={title} />}/>
                   <Route path="/blog" element={<Blog title={title} />}/>
+                  <Route path="/blog/:postId" element={<BlogPostWrapper />}/> 
                 </Routes>
               </Col>
             </Row>
@@ -80,6 +89,7 @@ const App = () => {
                 <Route path='/' element={<LandingPage title={'David Dallas'} />} />          
                 <Route path='/projects' element={<Projects title={title} />} />
                 <Route path='/blog' element={<Blog title={title} />} />
+                <Route path="/blog/:postId" element={<BlogPostWrapper />}/> 
               </Routes>
             </Col>
             <Col xs={2}></Col>
