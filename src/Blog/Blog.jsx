@@ -39,7 +39,7 @@ const Blog = () => {
             <header className="blog-header">
                 <h2>Writing</h2>
                 <p className="blog-subtitle">
-                    Thoughts on software design philosophy, backend engineering, and the intersection of theoretical and practical approaches to building systems.
+                    Thoughts on the philosophy and foundations of software, backend engineering, and the intersection of theoretical and practical approaches to building systems.
                 </p>
             </header>
 
