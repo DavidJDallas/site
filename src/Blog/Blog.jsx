@@ -9,6 +9,7 @@ const Blog = () => {
 
     const researchPosts = blogPosts.filter(post => post.category === 'research');
     const practicalPosts = blogPosts.filter(post => post.category === 'practical');
+    const summaryPosts = blogPosts.filter(post => post.category === 'summary')
 
     const formatDate = (dateString) => {
         const options = { year: 'numeric', month: 'long', day: 'numeric' };
@@ -56,6 +57,20 @@ const Blog = () => {
                             ))}
                         </div>
                     </section>
+                )}
+
+                {summaryPosts.length > 0 && (
+                      <section className="blog-section">
+                      <h3 className="section-title">Summaries & Interpretations</h3>
+                      <p className="section-description">
+                          Summaries and interpretations of important works in Software Engineering.
+                      </p>
+                      <div className="posts-list">
+                          {summaryPosts.map(post => (
+                              <BlogPostPreview key={post.id} post={post} />
+                          ))}
+                      </div>
+                  </section>
                 )}
 
                 {practicalPosts.length > 0 && (
