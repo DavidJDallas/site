@@ -8,6 +8,9 @@ export const alexanderPost = {
     excerpt: "Current work in progress",
     readTime: "15 min read",
     content: `
-        <p>Up soon...</p>
+        <h2>Goodness of Fit</h2>
+        <h2> The Self-Conscious and Unself-Conscious Methods </h2>
+        <h2> Ways to Make the Unself-Conscious Methods Work</h2>
+        <h3> </h3>
     `
 };
