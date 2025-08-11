@@ -1,16 +1,12 @@
 import React from 'react';
 import './BlogPost.css';
-
-// Import all your posts
 import { alexanderPost } from '../content/posts/alexanderpost';
-// import { cleanCodePost } from '../content/posts/cleanCodePost';
+
 
 const BlogPost = ({ postId }) => {
     // Map of post IDs to post objects
     const posts = {
-        'alexander-notes-synthesis-form': alexanderPost,
-        // 'clean-code-vs-pragmatic': cleanCodePost,
-        // Add more posts here as you create them
+        'alexander-notes-synthesis-form': alexanderPost
     };
 
     const post = posts[postId];
