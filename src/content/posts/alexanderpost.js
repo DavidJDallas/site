@@ -80,7 +80,7 @@ export const alexanderPost = {
         </p>
 
         <p>
-        Each contextual constraint shapes the form. A tight two-week deadline with one developer might lead to a simple localStorage implementation with basic persistence. A three-month timeline with a full team might justify a sophisticated distributed system with event sourcing and real-time synchronization. This mirrors Alexander's insight that the rightness of any design depends not on abstract principles, but on how well it fits within its specific ensemble of constraints and requirements.
+        Each contextual constraint shapes the form. A tight two-week deadline with one developer will undoubtedly lead to a simpler solution; a three-month deadline with a full team might justify a sophisticated distributed system with event sourcing and real-time synchronization. This mirrors Alexander's insight that the rightness of any design depends not on abstract principles, but on how well it fits within its specific ensemble of constraints and requirements.
         </p>
 
         <p>
