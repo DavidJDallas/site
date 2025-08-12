@@ -14,13 +14,13 @@ export const alexanderPost = {
         Christopher Alexander’s <i>Notes on the Synthesis of Form</i> (henceforth <i>Notes</i>) occupies a curious position in the foundations of software architecture. It is often spoken of as important, yet remains far less visible than Alexander’s later work, <i>A Pattern Language</i>.
         </p>
         <p>
-        Most software practitioners who know Alexander’s influence know it through <i>A Pattern Language</i>. This is the text cited explicitly in <i>Design Patterns: Elements of Reusable Object-Oriented Software</i>, in <i>Pattern-Oriented Software Architecture: A System of Patterns</i>, and by Martin Fowler both in talks and in <i>Patterns of Enterprise Application Architecture</i>. By contrast, aside from Richard P. Gabriel’s <i>Patterns of Software</i>, explicit references to <i>Notes</i> in the software literature appear to be rare — though I would be glad to discover otherwise.
+        Most software practitioners who know Alexander’s influence know it through his book <i>A Pattern Language</i>. This is the text cited explicitly in <i>Design Patterns: Elements of Reusable Object-Oriented Software</i>, in <i>Pattern-Oriented Software Architecture: A System of Patterns</i>, and by Martin Fowler both in talks and in <i>Patterns of Enterprise Application Architecture</i>. By contrast, aside from Richard P. Gabriel’s <i>Patterns of Software</i>, explicit references to <i>Notes</i> in the software literature appear to be rare.
         </p>
         <p>
-        Why begin this series with a work the software world barely cites? Because <i>Notes</i> is the intellectual seed from which <i>A Pattern Language</i> grew. One can use <i>A Pattern Language</i> in isolation and gain substantial practical insight. But to fully grasp the reasoning behind Alexander’s patterns — his conception of fit, his method for handling complexity — <i>Notes</i> is essential reading.
+        A question naturally arises: why begin this series with a work the software world barely cites? In part because <i>Notes</i> is the foundation from which <i>A Pattern Language</i> grew. One can use <i>A Pattern Language</i> in isolation and gain substantial practical insight. But to fully grasp the reasoning behind Alexander’s patterns — his conception of fit, his method for handling complexity — <i>Notes</i> is essential reading. The idea, therefore, is that <i> Notes</i> should be read in order to read <i>A Pattern Language</i>.
         </p>
         <p>
-        This choice is also personal. I am drawn to the philosophical underpinnings of software design, not only its techniques. Beginning here sets the tone for the series: before asking <i>how</i> we design, we should understand <i>why</i> we design in certain ways.
+         Beginning here also sets the tone for the series: before asking <i>how</i> we design, we should understand <i>why</i> we design in certain ways.
         </p>
         <p>
         In brief, <i>Notes</i> is Alexander’s manifesto for good architectural design. It addresses: (1) the meaning of “goodness of fit”; (2) the historical design paradigms he terms the self-conscious and the unself-conscious; and (3) a systematic method for achieving good design in the unself-conscious paradigm — the most extensive section of the book. This post will follow that same structure
