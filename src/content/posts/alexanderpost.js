@@ -99,6 +99,11 @@ export const alexanderPost = {
         <p>
         Contextual constraint clearly shapes the form. A tight two-week deadline with one developer will undoubtedly lead to a simpler solution; a three-month deadline with a full team might justify a sophisticated distributed system with event sourcing and real-time synchronization. This mirrors Alexander's insight that the rightness of any design depends not on abstract principles, but on how well it fits within its specific ensemble of constraints and requirements.
         </p>
+
+        <p>
+        Good fit can also usually only be determined negatively (p22); and achieving good fit should be seen as a negative process of neutralising the incongruities. Alexander justifies by pointing to the fact that we already do this in practice (p24). MORE TO ADD
+        </p>
+
         <p>
         David Whitney has written an <a href="https://davidwhitney.co.uk/blog/2025/01/06/notes_on_the_synthesis_of_form/""> excellent blog post</a> that pays homage to Alexander's <i>Notes </i>, and an especially illuminating point he makes is around the <b><i>subversion of form</i></b>. The subversion of form is where the 'usual' or 'normal' way of doing things in design. Usually for pragmatic reasons, i.e. to achieve a specific goal. 
         </p>
@@ -137,10 +142,6 @@ export const alexanderPost = {
         </blockquote>
         <p>
         This echoes Alexander sentiments about the ensemble. Understanding the context is everything here. Whitney applies the principle of the importance of understanding context to other Forms in Software.
-        </p>
-
-        <p>
-        Good fit can also usually only be determined negatively (p22); and achieving good fit should be seen as a negative process of neutralising the incongruities. Alexander justifies by pointing to the fact that we already do this in practice (p24).
         </p>
 
 
