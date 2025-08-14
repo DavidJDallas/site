@@ -23,11 +23,12 @@ export const alexanderPost = {
         <p>
         The question arises: why begin this series on summaries of important texts within software with a work that the software world barely cites? There's two main reasons. The first is because <i>Notes</i> is the foundation from which <i>A Pattern Language</i> grew. One can use <i>A Pattern Language</i> in isolation and gain substantial practical insight. And to fully grasp the reasoning behind Alexander’s patterns — his conception of fit, his method for handling complexity — <i>Notes</i> is essential reading. The idea, therefore, is that <i> Notes</i> should be read in order to read <i>A Pattern Language</i>.
         </p>
+
         <p>
          The second reason is more philosophical; beginning here sets the tone for the series. I want to spend time exploring vital texts for software engineering, and not have a series that is rushed or superficial. Being able to explore not just critical and foundational texts, but going even deeper and exploring the pre-requisities of these foundational and critical texts.
         </p>
         <p>
-        In brief, <i>Notes</i> is Alexander’s manifesto for good architectural design. It addresses: (1) the meaning of “goodness of fit”; (2) the historical design paradigms he terms the self-conscious and the unself-conscious; and (3) a systematic method for achieving good design in the unself-conscious paradigm — the most extensive section of the book. This post will follow that same structure
+        In brief, <i>Notes</i> is Alexander’s manifesto for good architectural design. It addresses: (1) the meaning of “goodness of fit”; (2) the historical design paradigms he terms the self-conscious and the unself-conscious; and (3) a systematic method for achieving good design in the unself-conscious paradigm — the most extensive section of the book. This post will follow that same broad structure, but be divided in two sections: Goodness of Fit, and Design Methods. In the latter section, I will discuss briefly the self-conscious and unself-concious paradigms.
         <sup>
           <a href="#fn2" id="ref2">
             <span style="font-size: 1.1em; font-weight: bold;">2</span>
@@ -152,8 +153,9 @@ export const alexanderPost = {
         </ol>
         </p>
 
-        <h3>The Self-Conscious and Unself-Conscious Methods</h3>
-        <h3>Ways to Make the Unself-Conscious Methods Work</h3>
+
+        <h3>Design Methods</h3>
+        <h4> The Self-Conscious and Unself-Concious paradigms </h4>
         <h4>Constructive Diagrams</h4>
         <h4>Programme vs Problem</h4>
         <h4>Explicit vs Vague Criteria</h4>
