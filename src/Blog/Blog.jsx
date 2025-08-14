@@ -61,9 +61,9 @@ const Blog = () => {
 
                 {summaryPosts.length > 0 && (
                       <section className="blog-section">
-                      <h3 className="section-title">Summaries & Interpretations</h3>
+                      <h3 className="section-title">Summaries, Interpretations, and Explorations</h3>
                       <p className="section-description">
-                          Summaries and interpretations of important works in Software Engineering.
+                          Summaries, interpretations, and explorations of important works in Software Engineering. These will primarily be in the Foundations and Philosophy of Software Engineering, but also feature more orthodox Software Engineering texts.
                       </p>
                       <div className="posts-list">
                           {summaryPosts.map(post => (

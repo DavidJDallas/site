@@ -1,5 +1,3 @@
-// src/content/posts/alexanderPost.js
-
 export const alexanderPost = {
     id: 'alexander-notes-synthesis-form',
     title: "Alexander's Notes on the Synthesis of Form: A Summary",
