@@ -101,8 +101,23 @@ export const alexanderPost = {
         </p>
 
         <p>
-        Good fit can also usually only be determined negatively (p22); and achieving good fit should be seen as a negative process of neutralising the incongruities. Alexander justifies by pointing to the fact that we already do this in practice (p24). MORE TO ADD
+        Good fit can also usually only be determined negatively (p22); and achieving good fit should be seen as a negative process of neutralising the incongruities. Alexander justifies by pointing to the fact that we already do this in practice (p24). 
         </p>
+        <p>
+        Returning to our e-commerce basket: instead of vague positive requirements like "fast" or "user-friendly," we can specify precise failure conditions to avoid:
+        </p>
+
+        <ul>
+        <li>Users losing basket contents during normal browsing</li>
+        <li>System unresponsiveness under expected concurrent load</li>
+        <li>Confusion in add/remove item workflows</li>
+        <li>Data loss during checkout processes</li>
+        </ul>
+
+        <p>
+        This approach creates more reliable design criteria because we can test concretely against these failure modes. Alexander justifies this by noting we already do this instinctively - we notice when something fails to work far more readily than we can articulate abstract positive qualities (p. 24).
+        </p>
+       
 
         <p>
         David Whitney has written an <a href="https://davidwhitney.co.uk/blog/2025/01/06/notes_on_the_synthesis_of_form/""> excellent blog post</a> that pays homage to Alexander's <i>Notes </i>, and an especially illuminating point he makes is around the <b><i>subversion of form</i></b>. The subversion of form is where the 'usual' or 'normal' way of doing things in design. Usually for pragmatic reasons, i.e. to achieve a specific goal. 
