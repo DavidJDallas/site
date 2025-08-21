@@ -99,7 +99,7 @@ export const alexanderPost = {
         <p>
         Contextual constraint clearly shapes the form. A tight two-week deadline with one developer will undoubtedly lead to a simpler solution; a three-month deadline with a full team might justify a sophisticated distributed system with event sourcing and real-time synchronization. This mirrors Alexander's insight that the rightness of any design depends not on abstract principles, but on how well it fits within its specific ensemble of constraints and requirements.
         </p>
-
+        <h4> Good Fit is Defined Negatively </h4>
         <p>
         Good fit can also usually only be determined negatively (p22); and achieving good fit should be seen as a negative process of neutralising the incongruities. Alexander justifies by pointing to the fact that we already do this in practice (p24). 
         </p>
@@ -118,7 +118,7 @@ export const alexanderPost = {
         This approach creates more reliable design criteria because we can test concretely against these failure modes. Alexander justifies this by noting we already do this instinctively - we notice when something fails to work far more readily than we can articulate abstract positive qualities (p. 24).
         </p>
        
-
+        <h4> Whitney and the Subversion of Form </h4>
         <p>
         David Whitney has written an <a href="https://davidwhitney.co.uk/blog/2025/01/06/notes_on_the_synthesis_of_form/""> excellent blog post</a> that pays homage to Alexander's <i>Notes </i>, and an especially illuminating point he makes is around the <b><i>subversion of form</i></b>. The subversion of form is where the 'usual' or 'normal' way of doing things in design. Usually for pragmatic reasons, i.e. to achieve a specific goal. 
         </p>
