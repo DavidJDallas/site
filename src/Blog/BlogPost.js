@@ -1,12 +1,14 @@
 import React from 'react';
 import './BlogPost.css';
 import { alexanderPost } from '../content/posts/alexanderpost';
+import { ousterhoutPost } from '../content/posts/ousterhoot';
 
 
 const BlogPost = ({ postId }) => {
     // Map of post IDs to post objects
     const posts = {
-        'alexander-notes-synthesis-form': alexanderPost
+        'alexander-notes-synthesis-form': alexanderPost,
+        'ousterhout-notes': ousterhoutPost
     };
 
     const post = posts[postId];
