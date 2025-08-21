@@ -39,10 +39,10 @@ const BlogPost = ({ postId }) => {
                 </div>
             </header>
             
-            <div 
+            {/* <div 
                 className="blog-post-content"
                 dangerouslySetInnerHTML={{ __html: post.content }}
-            />
+            /> */}
             
             <footer className="blog-post-footer">
                 <a href="/blog" className="back-to-blog">← Back to all posts</a>
