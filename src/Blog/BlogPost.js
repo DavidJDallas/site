@@ -7,8 +7,8 @@ import { ousterhoutPost } from '../content/posts/ousterhoot';
 const BlogPost = ({ postId }) => {
     // Map of post IDs to post objects
     const posts = {
-        'alexander-notes-synthesis-form': alexanderPost,
-        'ousterhout-notes': ousterhoutPost
+        // 'alexander-notes-synthesis-form': alexanderPost,
+        // 'ousterhout-notes': ousterhoutPost
     };
 
     const post = posts[postId];

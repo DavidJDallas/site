@@ -24,18 +24,24 @@ export const agileScience = {
     (3) It is only possible to partially give software 'engineering' scientific foundations. Much of it, especially the more process-based, dev-ops, stuff, simply cannot ever be given a scientific foundation. 
 
 
-    'I describe a practical approach to software development that applies a consciously rational, scientific style of thinking to solving problems. These ideas stem from consistently applying what we have learned about software development over the last few decades'.
+    <h3> Introduction </h3>
+    <h3> The Mischaracterisation of Science </h3>
+    <h3> Software 'Engineering' Can Only Partially Have Scientific Foundations </h3>
+
+    'I describe a practical approach to software development that applies a consciously rational, scientific style of thinking to solving problems. These ideas stem from consistently applying what we have learned about software development over the last few decades'. (xxi)
 
     'This approach assembles a collection of important foundational ideas and builds on the work that went before. At one level there is nothing that is new here in terms of novel practices, but the approach that I describe assembles important ideas and practices into a coherent whole and gives us principles on which a software engineering discipline may be built'.
 
-    'Engineering is about adopting a scientific, rationalist approach to solving practical problems within economic constraints, but that doesn't mean that such an approach is either theoretical or bureaucratic. Almost by definition, engineering is pragmatic'.
+    'Engineering is about adopting a scientific, rationalist approach to solving practical problems within economic constraints, but that doesn't mean that such an approach is either theoretical or bureaucratic. Almost by definition, engineering is pragmatic'. (xxii)
+
+    'Software engineering is not production engineering in any form; that is not our problem. If when I say engineering it makes you think bureaucracy, please read this book and think again' (ibid).
 
     'Software engineering is the application of an empiricial, scientific approach to finding efficient, economic solutions to practical problems in software' 
 
     His Part 1: 'What is Software Engineering' is where I will be criticising. This forms the foundations of the book .In his own words, it 'begins by looking at what engineering really means in the context of software. This is about the principles and philosophy of engineering and how we can apply these ideas to software. This is a technical philosophy for software development'. 
     
 
-    'Humanity's best approach to learning is science, so we need to adopt the techniques and strategies of science and apply them to our problems'.
+    'Humanity's best approach to learning is science, so we need to adopt the techniques and strategies of science and apply them to our problems'. (p3)
 
     (1) Humanity's best approach to learning is science is incredibly contentious. Here are just 5 counter-examples to this.
     (2) What, exactly, the 'techniques' and 'strategies' of a body called science is highly problematic and contentious, in and of itself. Even more difficult is applying something like that to a discipline. 
@@ -59,7 +65,7 @@ export const agileScience = {
     - Characterize: Make an observation of the current state.
     - Hypothesize: Create a description, a theory that may explain your observation.
     - Predict: Make a prediction based on your hypothesis.
-    - Experiment: Test your prediction.
+    - Experiment: Test your prediction.' (p3)
 
     I'd like to showcase 10, extremely high-profile, non-pedantic cases in science that in no way conform to Farley's characterisation of the scientific method, nor science:
 
@@ -91,6 +97,14 @@ Boyle was guided by mechanical philosophy and corpuscular theory - the measureme
 Ohm faced initial resistance because his mathematical approach challenged prevailing theories about electrical action.
 Mendeleev made bold theoretical predictions about missing elements and corrected supposedly "precise" atomic weights based on his theoretical framework.
 
+    p4: 'This book is deeply grounded in a practical, pragmatic approach to solving problems in software, based on an informal adoption of basic scientific principles, in other words, engineering!'. 
+
+    Fives techniques that form the roots of the focus:
+    - iteration
+    -feedback
+    -incrementalism
+    - Experimentation
+    - Empiricism
 
     There is also a fundamental tension in Farley's work, for a few pages later he discusses Kuhn's idea of paradigm shfits. This is a poor reading of Kuhn. The great irony here is that Kuhn argues exactly that there is no universal scientific method, and that what counts as scineitific is entirely dependent on a particular paradigm
 
