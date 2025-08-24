@@ -1,10 +1,12 @@
 import './Blog.css';
 import { alexanderPost } from '../content/posts/alexanderpost';
+import { ousterhoutPost } from '../content/posts/ousterhoot';
 
 const Blog = () => {
 
     const blogPosts = [
-        alexanderPost
+        alexanderPost,
+        ousterhoutPost
     ];
 
     const researchPosts = blogPosts.filter(post => post.category === 'research');
