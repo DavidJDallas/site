@@ -106,6 +106,12 @@ Mendeleev made bold theoretical predictions about missing elements and corrected
     - Experimentation
     - Empiricism
 
+    6: 'That is the fundamental idea at the heart of this book, and its aim is to describe an intellectually consistent model that pulls together some foundational principles that sits at the roots of all great software development'.
+
+    Science is 'an approach that allows us the intellectual freedom to challenge and refute dogma and to differentiate between fashion, plain-old bad ideas and great ones, whatever their source. It allows us to replace the bad ideas with better ideas and to improve on the good ideas. Fundamentally, we need some structure that allows us to grow and to evolve improved approaches, strategies, processes, technologies, and solutions. We call this good example science!'. 
+
+    'This book is about what it means to apply scientific-style reasoning to our discipline and so achieve something that we can genuinely and acurrately refer to as software engineering'. 
+
     There is also a fundamental tension in Farley's work, for a few pages later he discusses Kuhn's idea of paradigm shfits. This is a poor reading of Kuhn. The great irony here is that Kuhn argues exactly that there is no universal scientific method, and that what counts as scineitific is entirely dependent on a particular paradigm
 
     Baconian Farley: "Here's THE scientific method that works across all domains and times"
@@ -114,6 +120,55 @@ Baconian Farley: "Science progresses through better measurement and precision"
 Kuhnian analysis: "Science progresses through revolutionary breaks that discard previous frameworks entirely"
 Baconian Farley: "We can apply scientific techniques rationally to any problem"
 Kuhnian analysis: "Scientific approaches are embedded in particular paradigms and can't be abstracted from their contexts"
+
+    9: Argues that paradigm shifts 'give us an approach to learning more effectively and discarding bad ideas more efficiently'. 
+
+    Chapter 2: What Is engineering
+
+    11: Confusion between production engineering and design engineering.
+
+    17: 'Engineering is the application of an empirical, scientific approach to finding efficient, economic solutions to practical problems'. 
+
+    Using 'empirical' means to learn and advance understanding and solutions towards the resolution of a problem;. 
+
+    'for this book, when I talk about engineering, unless I qualify it specifically, I mean everything that it takes to make software. Process, tools, culture - all are part of the whole'. 
+
+
+    Empiricism chapter
+
+    To be fair, I actually think his definition, taken from Wikipedia, is a relatively ok definition.
+
+    There are many wild things in here.But:
+
+    82: 'our production systems will always surprise us, and they should! Ideally they will not surprise us too often in very bad ways, but any software system is really only the best guess so far of its developers. When we publish our software into production, this is, or should be, an opportunity to learn'. 
+
+    Pages 83-84. Example of rational, solid thinking conflated with scientific reasoning. 
+
+    What scientific reasoning actually involves:
+
+Systematic methodology designed to control variables and eliminate bias
+Attempts to discover generalizable principles or laws
+Reproducible experiments that others can replicate
+Statistical analysis of data across multiple cases
+Peer review and community validation
+Building theories that make novel predictions
+
+What Farley describes:
+
+A single incident of debugging
+Ad hoc hypothesis formation ("maybe it's the messaging")
+No controls, no systematic methodology
+No attempt to generalize beyond this specific case
+No quantitative analysis
+Just rational troubleshooting
+
+This is basic rational problem-solving - the kind any competent professional does. A plumber diagnosing a leak, a doctor diagnosing symptoms, a mechanic finding engine problems all use similar reasoning patterns. We don't call them scientists.
+The philosophical point: Farley is committing a category error by conflating rational inquiry (which includes scientific reasoning as a subset) with scientific reasoning specifically. Science is a particular, highly disciplined form of rational inquiry with specific methodological requirements.
+
+
+    92: There is an irony here (recognised by Farley) of using a quote from Feynman (an authority) to decry trusting authority. But, aside from this, the quotes that are used by Feynman are quite misleading as to what science actually is or does. 
+
+    This decrying of authority is sort of true. But, again, misleading. A better principle in rational thinking is that we should defer expert opinion to the experts. See van Fraassen's work here. 
     `
 
 }
