@@ -28,7 +28,7 @@ const LandingPage = () => {
                             here
                         </a>.
                         </p>
-                        <p className="main-body last-paragraph">I'm very interested in the foundations, philosophy and history of software and computer science more generally. I'm especially interested in philosophy of software design, or philosophies of architectural design in software, and am becoming very interested with the early historical figures around this such as Dijkstra and Parnas.
+                        <p className="main-body last-paragraph">I'm very interested in the foundations, philosophy and history of software and computer science more generally. I'm especially interested in philosophy of software design, or philosophies of architectural design in software, and am becoming very interested with the early historical figures around this such as Dijkstra and Parnas. 
 
                         </p>
                         <p className="main-body last-paragraph">
@@ -36,6 +36,7 @@ const LandingPage = () => {
                         </p>
                    
                 </section>
+
             </main>
         </div>
     );
