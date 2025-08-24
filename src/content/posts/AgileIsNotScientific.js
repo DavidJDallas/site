@@ -7,6 +7,23 @@ export const agileScience = {
     readTime: "15 min read",
     content: `
     
+
+    Plan
+
+    Claims
+
+    - Dave Farley's characterisation of science is not up to scratch and is very naieve.
+    - However, this shouldn't take away from his valuable claims in his book on Modern Software Engineering. I am not in a place to assess whether his work here is valuable - I assume that he is, since he has been successful in the industry for many years, and the reviews of his books by trusted professionals are all very positive, citing it for good advice.
+    - But nonetheless, the foundations are not currently there with how he understands science. 
+    - Further, much of what he wants to do - give software 'engineering' a solid foundation in science and thus root it as a solid, undisputed 'engineering' discipline - is simply not possible. Much of software engineering can be seen as engineering - performance based on scientific concepts that utilise how CPUs work, scientifically. Writing code that you can calculate how fast it will run, even in theory, is able to be put on scientific foundations.
+
+    But CI/CD, architectural choices, design patterns - this is not engineering, as it cannot be put on scientific foundations. Use analogy of business management - it can certainly be evidence based, and solid, sound advice. But it is not based on science, no matter how one can possibly define science. 
+
+    (1) Farley mischaracterises what science is.
+    (2) This should not take away any value of what he recommends or does. To this extent - we must argue against his point that science is the ultimate form of learning in history. 
+    (3) It is only possible to partially give software 'engineering' scientific foundations. Much of it, especially the more process-based, dev-ops, stuff, simply cannot ever be given a scientific foundation. 
+
+
     'I describe a practical approach to software development that applies a consciously rational, scientific style of thinking to solving problems. These ideas stem from consistently applying what we have learned about software development over the last few decades'.
 
     'This approach assembles a collection of important foundational ideas and builds on the work that went before. At one level there is nothing that is new here in terms of novel practices, but the approach that I describe assembles important ideas and practices into a coherent whole and gives us principles on which a software engineering discipline may be built'.
@@ -74,6 +91,15 @@ Boyle was guided by mechanical philosophy and corpuscular theory - the measureme
 Ohm faced initial resistance because his mathematical approach challenged prevailing theories about electrical action.
 Mendeleev made bold theoretical predictions about missing elements and corrected supposedly "precise" atomic weights based on his theoretical framework.
 
+
+    There is also a fundamental tension in Farley's work, for a few pages later he discusses Kuhn's idea of paradigm shfits. This is a poor reading of Kuhn. The great irony here is that Kuhn argues exactly that there is no universal scientific method, and that what counts as scineitific is entirely dependent on a particular paradigm
+
+    Baconian Farley: "Here's THE scientific method that works across all domains and times"
+Kuhnian analysis: "There is no universal scientific method - what counts as proper method changes with paradigms"
+Baconian Farley: "Science progresses through better measurement and precision"
+Kuhnian analysis: "Science progresses through revolutionary breaks that discard previous frameworks entirely"
+Baconian Farley: "We can apply scientific techniques rationally to any problem"
+Kuhnian analysis: "Scientific approaches are embedded in particular paradigms and can't be abstracted from their contexts"
     `
 
 }
