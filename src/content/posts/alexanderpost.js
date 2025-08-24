@@ -194,7 +194,16 @@ export const alexanderPost = {
 
 
         <h3>Design Methods</h3>
+
+        This section actually comprised the vast majority of the Alexander's book. And it should be reminded that there is a not a direct mapping from book to this overview - instead, this article is structured more conceptually than literally. The rest of the book argues that (i) it is the self-conscious paradigm of design that requires reflection and needs new criteria in place to do design properly, (ii) sketches out loose criteria and ways to achieve this. To argue for (i), what the self-conscious and unself-conscious paradigms are sketched out briefly, in the book.
+
+        This section of the article examines Alexander's sketch of what the positive method to do good design would look like. We can think of the previous section in this article - Goodness of Fit - as outlining what criteria good design must adhere to, according to Alexander. This section can then be thought of as suggesting the methodology by which this good design can be achieved, and explaining the necessary concepts in order to understand this.
+
         <h4> The Self-Conscious and Unself-Concious paradigms </h4>
+
+        
+
+
         <h4>Constructive Diagrams</h4>
         <h4>Programme vs Problem</h4>
         <h4>Explicit vs Vague Criteria</h4>
