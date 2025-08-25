@@ -2,6 +2,7 @@ import React from 'react';
 import './BlogPost.css';
 import { alexanderPost } from '../content/posts/alexanderpost';
 import { ousterhoutPost } from '../content/posts/ousterhoot';
+import { agileScience } from '../content/posts/AgileIsNotScientific';
 
 
 const BlogPost = ({ postId }) => {
@@ -9,6 +10,8 @@ const BlogPost = ({ postId }) => {
     const posts = {
         // 'alexander-notes-synthesis-form': alexanderPost,
         // 'ousterhout-notes': ousterhoutPost
+        'software-engineering-science': agileScience
+
     };
 
     const post = posts[postId];
@@ -41,10 +44,10 @@ const BlogPost = ({ postId }) => {
                 </div>
             </header>
             
-            {/* <div 
+            <div 
                 className="blog-post-content"
                 dangerouslySetInnerHTML={{ __html: post.content }}
-            /> */}
+            />
             
             <footer className="blog-post-footer">
                 <a href="/blog" className="back-to-blog">← Back to all posts</a>

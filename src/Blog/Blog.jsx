@@ -1,12 +1,14 @@
 import './Blog.css';
 import { alexanderPost } from '../content/posts/alexanderpost';
 import { ousterhoutPost } from '../content/posts/ousterhoot';
+import { agileScience } from '../content/posts/AgileIsNotScientific';
 
 const Blog = () => {
 
     const blogPosts = [
         alexanderPost,
-        ousterhoutPost
+        ousterhoutPost,
+        agileScience
     ];
 
     const researchPosts = blogPosts.filter(post => post.category === 'research');
