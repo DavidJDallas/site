@@ -7,7 +7,7 @@ import { ousterhoutPost } from '../content/posts/ousterhoot';
 const BlogPost = ({ postId }) => {
     // Map of post IDs to post objects
     const posts = {
-        // 'alexander-notes-synthesis-form': alexanderPost,
+        'alexander-notes-synthesis-form': alexanderPost,
         // 'ousterhout-notes': ousterhoutPost
     };
 
@@ -41,10 +41,10 @@ const BlogPost = ({ postId }) => {
                 </div>
             </header>
             
-            {/* <div 
+            <div 
                 className="blog-post-content"
                 dangerouslySetInnerHTML={{ __html: post.content }}
-            /> */}
+            />
             
             <footer className="blog-post-footer">
                 <a href="/blog" className="back-to-blog">← Back to all posts</a>
