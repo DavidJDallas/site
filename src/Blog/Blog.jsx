@@ -6,9 +6,9 @@ import { agileScience } from '../content/posts/AgileIsNotScientific';
 const Blog = () => {
 
     const blogPosts = [
-        alexanderPost,
-        ousterhoutPost,
-        agileScience
+        //alexanderPost,
+        //ousterhoutPost,
+        //agileScience
     ];
 
     const researchPosts = blogPosts.filter(post => post.category === 'research');
