@@ -5,7 +5,7 @@ import { ousterhoutPost } from '../content/posts/ousterhoot';
 const Blog = () => {
 
     const blogPosts = [
-        alexanderPost,
+        //alexanderPost,
         ousterhoutPost
     ];
 
