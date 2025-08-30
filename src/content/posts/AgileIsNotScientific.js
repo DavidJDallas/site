@@ -38,6 +38,7 @@ export const agileScience = {
 
     'This book puts the engineering back into software engineering. In it, I describe a practical approach to software development that applies a consciously rational, scientific style of thinking to solving problems'
     (pxxi).
+    TO BE FINISHED
 
     <h3> The Mischaracterisation of Science </h3>
 
