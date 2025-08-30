@@ -8,7 +8,7 @@ import { agileScience } from '../content/posts/AgileIsNotScientific';
 const BlogPost = ({ postId }) => {
     // Map of post IDs to post objects
     const posts = {
-        // 'alexander-notes-synthesis-form': alexanderPost,
+        'alexander-notes-synthesis-form': alexanderPost,
         // 'ousterhout-notes': ousterhoutPost
         'software-engineering-science': agileScience
 

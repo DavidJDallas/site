@@ -195,12 +195,47 @@ export const alexanderPost = {
 
         <h3>Design Methods</h3>
 
-        This section actually comprised the vast majority of the Alexander's book. And it should be reminded that there is a not a direct mapping from book to this overview - instead, this article is structured more conceptually than literally. The rest of the book argues that (i) it is the self-conscious paradigm of design that requires reflection and needs new criteria in place to do design properly, (ii) sketches out loose criteria and ways to achieve this. To argue for (i), what the self-conscious and unself-conscious paradigms are sketched out briefly, in the book.
-
+        <p>
+        This section actually comprisesthe vast majority of the Alexander's book. And it should be reminded that there is a not a direct mapping from book to this overview - instead, this article is structured more conceptually than literally. The rest of the book argues that (i) it is the self-conscious paradigm of design that requires reflection and needs new criteria in place to do design properly, (ii) sketches out loose criteria and methods to achieve this. 
+        </p>
+        <p>
         This section of the article examines Alexander's sketch of what the positive method to do good design would look like. We can think of the previous section in this article - Goodness of Fit - as outlining what criteria good design must adhere to, according to Alexander. This section can then be thought of as suggesting the methodology by which this good design can be achieved, and explaining the necessary concepts in order to understand this.
-
+        </p>
         <h4> The Self-Conscious and Unself-Concious paradigms </h4>
 
+        Alexander sketches out two paradigms of design, based on different cultures. He stresses that the cultures discussed do not really contrast as fully as he makes out with his definitions, which he does to illustrate what he means in the two styles of designs rather than attempting to make any sort of anthropological or social point.
+          <sup>
+          <a href="#fn3" id="ref3">
+            <span style="font-size: 1.1em; font-weight: bold;">3</span>
+          </a>
+        </sup>
+        <blockquote>
+        'The features which distinguish architecturaly unselfconscious cultures from selfconscious ones are easy to describe loosely. In the unselfconscious culture there is little thought about the architecture or design as such. There is a right way to make buildings and a wrong way; but while there may be generally accepted remedies for specific failures, there are no general principles...'
+        <br>
+        (p33)
+        </blockquote>
+        <blockquote>
+        '[unselfconscious design] simply repeat the patterns of tradition, because these are the only ones they can imagine. In a word, actions are governed by habit. Design decisions are made more according to custom than according to any individual's new ideas'
+        <br>
+        (p34)
+        </blockquote>
+
+         <blockquote>
+        'I shall call a culture unselfconscious if its form making is learned informally, through imitation and correction. And I shall call a culture selfconscious if its form-making is taught academically, according to explicit rules'
+        <br>
+        (p36)
+        </blockquote>
+
+        <blockquote>
+        'The unselfconscious process has a structure that makes it homeostatic (self-organizing), and that it therefore consistently produces well-fitting forms, even in the face of change. And I shall argue that in a selfconscious culture the homeostatic culture of the process is broken down, so that the production of forms which fail to fit their contexts is not only possible but likely'.
+        <br>
+        (p38)
+        </blockquote>
+        <p>
+
+        'It is true that our functional standards are higher than those in the simple situation. It is true, and important to remember, that the simple cultures never face the problems of complexity which we face in design. And it is true that if they did face them, they would probably not make any better a showing than we do'. (p32).
+
+        </p>
         
 
 
@@ -219,6 +254,16 @@ export const alexanderPost = {
             All quotations with a page number are from Christopher Alexander’s 
             <i>Notes on the Synthesis of Form</i> (Harvard University Press, 1964), unless otherwise stated.
             <a href="#ref2">↩</a>
+          </li>
+           <li id="fn3">
+            See: 
+            <p>'Of course, the contrast in quality between the forms produced in the two different kinds of culture is by no means as marked as I shall suggest. Nor are the two form-making processes sharply distinguished, as my text pretends. But I have deliberately exaggerated the contrast, simply to draw attention to certain matter'. (p32)
+            </p>
+            <p>
+            And: <br>
+            'This is not an anthropological treatise, and it is therefore best to think of the first part of the following discussion simply as a comparision of two descriptive cosntructs, the unselfconscious culture and the selfconscious culture' (p33). 
+            <a href="#ref3">↩</a>
+            </p>
           </li>
         </ol>
     `
