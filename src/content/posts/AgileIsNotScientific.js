@@ -7,6 +7,8 @@ export const agileScience = {
     readTime: "15 min read",
     content: `
   
+
+    -- NB investigate Hilel Wayne's work, especially on exactly this question.
     <h3> Introduction </h3>
     <p>
     This article is motivated by, and focuses on, Dave Farley's 'Modern Software Engineering'. At its core, the argument is that the foundations of Farley's system are not correct in several important ways. In brief
