@@ -2,13 +2,15 @@ import './Blog.css';
 import { alexanderPost } from '../content/posts/alexanderpost';
 import { ousterhoutPost } from '../content/posts/ousterhoot';
 import { agileScience } from '../content/posts/AgileIsNotScientific';
+import { asycnhroncity } from '../content/posts/Asychronicity';
 
 const Blog = () => {
 
     const blogPosts = [
-        //alexanderPost,
-        //ousterhoutPost,
-        //agileScience
+        alexanderPost,
+        ousterhoutPost,
+        agileScience,
+        asycnhroncity
     ];
 
     const researchPosts = blogPosts.filter(post => post.category === 'research');
@@ -81,7 +83,7 @@ const Blog = () => {
                     <section className="blog-section">
                         <h3 className="section-title">Practical Based</h3>
                         <p className="section-description">
-                            Pragmatic discussions on backend engineering, .NET development, and real-world software delivery practices.
+                            More pragmatic discussions on backend engineering.
                         </p>
                         <div className="posts-list">
                             {practicalPosts.map(post => (

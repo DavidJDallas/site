@@ -3,15 +3,15 @@ import './BlogPost.css';
 import { alexanderPost } from '../content/posts/alexanderpost';
 import { ousterhoutPost } from '../content/posts/ousterhoot';
 import { agileScience } from '../content/posts/AgileIsNotScientific';
+import { asycnhroncity } from '../content/posts/Asychronicity';
 
 
 const BlogPost = ({ postId }) => {
-    // Map of post IDs to post objects
     const posts = {
         'alexander-notes-synthesis-form': alexanderPost,
-        // 'ousterhout-notes': ousterhoutPost
-        'software-engineering-science': agileScience
-
+        'ousterhout-notes': ousterhoutPost,
+        'software-engineering-science': agileScience,
+        'async': asycnhroncity
     };
 
     const post = posts[postId];
