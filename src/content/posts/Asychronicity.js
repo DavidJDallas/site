@@ -47,6 +47,13 @@ export const asycnhroncity = {
         Once the Kernel has offloaded the I/O task to the hardware via the device driver, the programme's original thread is no longer able to make process. 
         The kernel's scheduler is the component responsible for deciding which process or thread runs on a CPU core at any given moment. 
 
+        There are a few different states that the scheduler can choose from. 
+
+        To prevent the CPU from running idle, the scheduler performs a state transition: the thread's internal data structure is marked as BLOCKED. The thread is then removed from the CPU's Ready queue and into a WAIT queue. This takes it out of the pool of threads competing for CPU time. 
+
+        The transition to a blocked state also introduces a sophisticated low-level engineering problem known as the 'lost wakeup'. Can occur as a race condition if a thread is unblocked by a seperate process or CPU at the exact moment it is attempting to block itself. To prevent this, OSs implement an atomic 'unblock-and-block' step, ensuring the thread can't be interrupted between releasing a lock and entering the blocked state. 
+        
+        
 
         `
 };
